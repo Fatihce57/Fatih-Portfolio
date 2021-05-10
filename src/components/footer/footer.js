@@ -22,7 +22,7 @@ function Footer() {
 
         </div>
         <div className="social_media">
-          <h3 className="aboutme">About Me </h3>
+          <h3 className="aboutme">Informations </h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum totam quia labore aperiam inventore blanditiis optio excepturi, ab ipsa quasi fuga, esse in quas saepe molestiae aut a non?</p>
 
           <div className="container-sos-med">
