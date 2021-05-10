@@ -8,7 +8,7 @@ function Navbar() {
         <nav className="navbar">
          
             <li>
-            <a href="#hello"><button class="glow-on-hover" type="button">Fatih</button></a> 
+            <a href="#hello"><button class="glow-on-hover" type="button">Home</button></a> 
             </li>
             <li>
             <a href="#abouthead"><button class="glow-on-hover" type="button">About</button></a> 
