@@ -1,0 +1,12 @@
+.project {
+    border: solid 1px red;
+    height: 100vh;
+    margin-left: 15%;
+  }
+
+  #projecthead {
+    text-align: center;
+    color: rgb(253, 5, 129);
+    font-size: 2rem;
+    margin: 5% 0;
+ }

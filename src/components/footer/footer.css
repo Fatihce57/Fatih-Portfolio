@@ -1,0 +1,91 @@
+#contacthead{
+  text-align: center;
+  color: rgb(253, 5, 129);
+  font-size: 2rem;
+  margin: 2% 0;
+}
+
+.footer {
+  border: solid 1px red;
+  margin-left: 15%;
+}
+
+.container_footer {
+  display: flex;
+  margin: 0 1%;
+}
+
+.communication {
+  width: 50%;
+  color: rgb(253, 5, 129);
+}
+
+.address {
+  margin: 1%;
+  font-size: 1.5rem;
+  padding-top: 5%;
+}
+.phone {
+  margin: 1%;
+  font-size: 1.5rem;
+}
+
+.email {
+  margin: 1%;
+  font-size: 1.5rem;
+}
+
+.com-icon {
+  margin: 1%;
+  font-size: 1rem;
+}
+
+.email span {
+  color: rgb(76, 165, 233);
+  text-decoration: underline;
+}
+
+.social_media {
+  padding-top: 1%;
+  width: 50%;
+  color: rgb(253, 5, 129);
+}
+
+.aboutme {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  padding: 2% 2%;
+  text-align: justify;
+}
+
+.container-sos-med {
+  margin: 0 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sos_med {
+  font-size: 1.5rem;
+  color: rgb(165, 115, 23);
+}
+.sos_med:hover{
+  color:rgb(253, 5, 129);
+ 
+}
+
+
+.fatih {
+  font-size: 0.8rem;
+  color: rgb(253, 5, 129);
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+
+.copy {
+  margin: 0 1%;
+}
