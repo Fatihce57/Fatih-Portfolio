@@ -1,13 +1,15 @@
+.footer {
+  background-color: rgb(7, 33, 51);
+  border: solid 1px red;
+  padding-left: 15%;
+}
+
+
 #contacthead{
   text-align: center;
   color: rgb(253, 5, 129);
   font-size: 2rem;
   margin: 2% 0;
-}
-
-.footer {
-  border: solid 1px red;
-  margin-left: 15%;
 }
 
 .container_footer {

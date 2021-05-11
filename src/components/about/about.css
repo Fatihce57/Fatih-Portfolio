@@ -1,8 +1,11 @@
-.about {
+ .about {
+  background-color: rgb(7, 33, 51);
     border: solid 1px red;
     height: 100vh;
-    margin-left: 15%;
-  }
+    padding-left: 15%;
+     } 
+
+  
 
   #abouthead {
     text-align: center;

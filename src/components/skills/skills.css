@@ -1,6 +1,7 @@
 .skills{
+  background-color: rgb(7, 33, 51);
   height: 100vh;
-  margin-left: 15%;
+  padding-left: 15%;
   border: solid 1px red;
 }
 

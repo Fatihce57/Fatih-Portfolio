@@ -6,7 +6,6 @@
 .tsparticles-canvas-el {  
   background-color: rgb(7, 33, 51);
   position: absolute;
- 
   z-index: -1;
 }
 
