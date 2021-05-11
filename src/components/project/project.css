@@ -1,8 +1,10 @@
 .project {
     border: solid 1px red;
+    color: rgb(255, 255, 255);
     height: 100vh;
     padding-left: 15%;
     background-color: rgb(7, 33, 51);
+  
   }
 
   #projecthead {
@@ -11,3 +13,29 @@
     font-size: 2rem;
     margin: 5% 0;
  }
+
+.container-project{
+  display: flex;
+  justify-content:center;
+  }
+
+.project-1, .project-2, .project-3{
+  margin-left: 5%;
+  text-align: center;
+ 
+}
+
+  .perseverance{
+    width: 320px;
+    height: 400px;
+  }
+
+    .clock{
+      width: 320px;
+      height: 400px;
+    }
+
+     .movies{
+        width: 320px;
+        height: 400px;
+      }

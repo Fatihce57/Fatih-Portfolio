@@ -14,10 +14,10 @@ function Navbar() {
             <a href="#abouthead"><button class="glow-on-hover" type="button">About</button></a> 
             </li>
             <li>
-           <a href="#skillshead"><button class="glow-on-hover" type="button">Skills</button></a> 
+            <a href="#projecthead"><button class="glow-on-hover" type="button">Projects</button></a> 
             </li>
             <li>
-            <a href="#projecthead"><button class="glow-on-hover" type="button">Projects</button></a> 
+           <a href="#skillshead"><button class="glow-on-hover" type="button">Skills</button></a> 
             </li>
             <li>
             <a href="#contacthead"><button class="glow-on-hover" type="button">Contact</button></a> 
