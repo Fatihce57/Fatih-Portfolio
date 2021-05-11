@@ -29,8 +29,8 @@ function Footer() {
 
             <a href="#/"><h3 className="sos_med"><FaFacebookF /></h3></a>
             <a href="#/"><h3 className="sos_med"><FaTwitter /></h3></a>
-            <a href="#/"><h3 className="sos_med"><FaLinkedinIn /></h3></a>
-            <a href="#/"><h3 className="sos_med"><FaGithub /></h3></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank"><h3 className="sos_med"><FaLinkedinIn /></h3></a>
+            <a href="https://github.com/Fatihce57" target="_blank"><h3 className="sos_med"><FaGithub /></h3></a>
 
           </div>
         </div>

@@ -5,25 +5,24 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-   
-   }
+      }
 
    .text{
-    margin-left: 15%;
+    padding-left: 15%;
    }
 
-h1{
+#hello{
     color: white;
-  
+    text-shadow: 5px 0px 7px #c72b2b, 1px 0px 7px #ff0000;
 }
 
 .fatihce{
     color: rgb(223, 71, 91);
-   
+    text-shadow: 5px 0px 7px #f8f3f3, 1px 0px 7px #f3eeee;
 }
 
 .stack{
     color: white;
-  
+    text-shadow: 5px 0px 7px #c72b2b, 1px 0px 7px #ff0000;
 }
 
