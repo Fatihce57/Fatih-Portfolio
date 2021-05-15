@@ -3,13 +3,27 @@
     border: solid 1px red;
     height: 100vh;
     padding-left: 15%;
-     } 
+    color: white;
+    } 
 
-  
-
-  #abouthead {
+    #abouthead {
     text-align: center;
     color: rgb(253, 5, 129);
     font-size: 2rem;
     margin: 5% 0;
+    }
+
+    .container-about{
+      display: flex;
+      position: relative;
+      margin: 5%;
+    }
+
+ .about-img{
+  width: 20%;
+  height: 20;
+ }
+
+ .about-text{
+   margin: 5%;
  }
