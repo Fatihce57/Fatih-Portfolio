@@ -17,7 +17,7 @@ function Footer() {
         <div className="communication">
 
           <h3 className="address"><FaMapMarkerAlt /><span className="com-icon">Berlin, Germany</span></h3> <br />
-          <h3 className="phone"><FaPhoneAlt /> <span className="com-icon">+49 1577 500 58 93</span></h3><br />
+          <h3 className="phone"><FaPhoneAlt /> <span className="com-icon">+49 178 000 00 00</span></h3><br />
           <h3 className="email"><FaEnvelope /><span className="com-icon">fatihce57@gmail.com</span></h3>
 
         </div>

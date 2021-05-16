@@ -4,11 +4,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 3.5rem;
       }
 
    .text{
     padding-left: 15%;
+   }
+   .exclamation{
+       color: red;
+   }
+   .header_fatih{
+       color: rgb(82, 184, 231);
+   }
+   .header_punkt{
+    font-size: 2em;
    }
 
 #hello{
@@ -26,3 +35,7 @@
     text-shadow: 5px 0px 7px #c72b2b, 1px 0px 7px #ff0000;
 }
 
+
+.smileicon{
+    color: yellow;
+}

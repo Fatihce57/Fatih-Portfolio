@@ -7,6 +7,12 @@
   padding :2%;
 }
 
+.logo{
+  width: 45%;
+  border:rgb(253, 5, 129) 1px solid;
+  border-radius: 50%;
+  
+}
 
 .navbar li {
   margin: 20% 0; 

@@ -6,7 +6,8 @@ function Navbar() {
    
      
         <nav className="navbar">
-         
+          <img className="logo" src="./images/logo.png" alt="" />
+       
             <li>
             <a href="#hello"><button class="glow-on-hover" type="button">Home</button></a> 
             </li>
