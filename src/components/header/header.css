@@ -4,11 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3.5rem;
+  
       }
 
    .text{
     padding-left: 15%;
+    
    }
    .exclamation{
        color: red;
@@ -17,22 +18,25 @@
        color: rgb(82, 184, 231);
    }
    .header_punkt{
-    font-size: 2em;
+    font-size: 3em;
    }
 
 #hello{
     color: white;
     text-shadow: 5px 0px 7px #c72b2b, 1px 0px 7px #ff0000;
+    font-size: 5rem;
 }
 
 .fatihce{
     color: rgb(223, 71, 91);
     text-shadow: 5px 0px 7px #f8f3f3, 1px 0px 7px #f3eeee;
+    font-size: 4rem;
 }
 
 .stack{
     color: white;
     text-shadow: 5px 0px 7px #c72b2b, 1px 0px 7px #ff0000;
+    font-size: 3rem;
 }
 
 

@@ -1,33 +1,42 @@
 import './project.css';
+import Carousel from 'react-bootstrap/Carousel'
 
 function Project() {
   return (
     <div className="project">
       <h2 id="projecthead">Project</h2>
 
-      <div className="container-project">
+    
+<Carousel className="container-corousel">
+  
 
-        <div className="project-1">
-          <h2>Perseverance Rover</h2>
-          <iframe className="perseverance" src="https://marsperseverance.netlify.app/" frameborder="0"></iframe>
-        </div>
+  <Carousel.Item>
+  <h3>Perseverance</h3>
+   <iframe className="project-images d-block w-100" src="https://marsperseverance.netlify.app/" frameborder="0"></iframe>
+    </Carousel.Item>
 
-        <div className="project-2">
-          <h2>Analog Clock</h2>
-          <iframe className="clock" src="https://analoguhr.netlify.app/" frameborder="0"></iframe>
-        </div>
+   
+  <Carousel.Item>
+  <h3>Clock</h3>
+    <iframe className="project-images d-block w-100" src="https://analoguhr.netlify.app/" frameborder="0"></iframe>
+    </Carousel.Item>
 
-        <div className="project-3">
-          <h2>Movies</h2>
-          <iframe className="movies" src="https://filmmovies.netlify.app/" frameborder="0"></iframe>
-        </div>
+   
+  <Carousel.Item>
+  <h3>Movies</h3>
+    <iframe className="project-images d-block w-100" src="https://filmmovies.netlify.app/" frameborder="0"></iframe>
+    </Carousel.Item>
 
-        <div className="project-4">
-          <h2>Google Search</h2>
-          <iframe className="googlesearch" src="https://googlesearchbar.netlify.app/" frameborder="0"></iframe>
-        </div>
+    
+  <Carousel.Item>
+  <h3>Google Search</h3>
+    <iframe className="project-images d-block w-100" src="https://googlesearchbar.netlify.app/" frameborder="0"></iframe>
+   </Carousel.Item>
 
-      </div>
+
+</Carousel>
+
+      
 
     </div>
   );

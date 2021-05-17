@@ -15,6 +15,7 @@ function Header() {
         <h2 className="stack">I'm a full-stack web developer <br /> candidate  <span className="smileicon"><BiWinkSmile /></span></h2>
 
       </div>
+      
     </div>
   );
 }

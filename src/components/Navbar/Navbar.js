@@ -6,9 +6,16 @@ function Navbar() {
    
      
         <nav className="navbar">
-          <img className="logo" src="./images/logo.png" alt="" />
-       
-            <li>
+ 
+        {/* <div>
+        <img className="logo" src="./images/logo.png" alt="" />
+        </div> */}
+
+         <div class="collapse" id="navbarToggleExternalContent">
+  <div class="p-4">
+    
+    <nav class="text-white h4">
+    <li>
             <a href="#hello"><button class="glow-on-hover" type="button">Home</button></a> 
             </li>
             <li>
@@ -23,8 +30,29 @@ function Navbar() {
             <li>
             <a href="#contacthead"><button class="glow-on-hover" type="button">Contact</button></a> 
             </li>
-         
+
+    </nav>
+   
+  </div>
+</div>
+<nav class="navbar navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+
+
+
+
+
+
         </nav>
+
+
+
 
   );
 }
