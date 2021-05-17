@@ -4,9 +4,15 @@
   flex-wrap: nowrap;
   justify-content:center;
   list-style-type: none;
-  padding :2%;
+  margin :3%;
 }
 
+/* .logo{
+  width: 3rem;
+  border:rgb(253, 5, 129) 1px solid;
+  border-radius: 50%;
+   
+} */
 
 .navbar li {
   margin: 20% 0; 
@@ -73,6 +79,8 @@ font-size: 1.2rem;
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
+
+
 
 
 
