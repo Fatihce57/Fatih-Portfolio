@@ -1,11 +1,11 @@
-import "../Navbar/Navbar.css"
+import "./navbar.css";
 
 
 function Navbar() {
   return (
    
      
-        <nav className="navbar">
+        <nav className="container-navbar">
  
         {/* <div>
         <img className="logo" src="./images/logo.png" alt="" />
@@ -41,9 +41,7 @@ function Navbar() {
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>
-</nav>
-
-
+</nav> 
 
 
 

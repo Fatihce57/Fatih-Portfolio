@@ -1,5 +1,6 @@
 
-.navbar {
+.container-navbar {
+  display: flex;
   position: fixed;
   flex-wrap: nowrap;
   justify-content:center;
@@ -14,7 +15,7 @@
    
 } */
 
-.navbar li {
+.container-navbar li {
   margin: 20% 0; 
  }
 
@@ -78,10 +79,7 @@ font-size: 1.2rem;
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
-}
-
-
-
+} 
 
 
 
