@@ -1,7 +1,7 @@
 import './App.css';
 /* import { BrowserRouter, Route, Link } from "react-router-dom"; */
 import Particles from "react-particles-js";
-import Navbar from './components/Navbar/Navbar.js';
+import Navbar from './components/navbar/navbar.js';
 import Header from './components/header/header';
 import Project from './components/project/project';
 import Skills from './components/skills/skills';
