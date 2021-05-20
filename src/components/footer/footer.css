@@ -1,6 +1,6 @@
 .footer {
   background-color: rgb(7, 33, 51);
-  border: solid 1px red;
+
   padding-left: 15%;
 }
 
@@ -9,7 +9,7 @@
   text-align: center;
   color: rgb(253, 5, 129);
   font-size: 2rem;
-  margin: 2% 0;
+  
 }
 
 .container_footer {
@@ -85,7 +85,7 @@ p {
   color: rgb(253, 5, 129);
   display: flex;
   justify-content: center;
-  margin: 2%;
+  padding-bottom: 2%;
 }
 
 .copy {
