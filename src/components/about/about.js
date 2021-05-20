@@ -14,7 +14,7 @@ function About() {
           necessitatibus aspernatur in. Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Animi incidunt, consectetur inventore at, quam illo
           sint facilis praesentium nam dicta, consequatur veritatis asperiores
-          temporibus soluta sapiente rerum necessitatibus aspernatur in.
+          temporibus soluta sapiente rerum necessitatibus aspernatur in...
       </p>
       
       </div>
