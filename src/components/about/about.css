@@ -1,6 +1,6 @@
  .about {
   background-color: rgb(7, 33, 51);
-    border: solid 1px red;
+ 
     height: 100vh;
     padding-left: 15%;
     color: white;
@@ -10,7 +10,7 @@
     text-align: center;
     color: rgb(253, 5, 129);
     font-size: 2rem;
-    margin: 5% 0;
+    
     }
 
     .container-about{
@@ -22,7 +22,38 @@
  .about-img{
   width: 20%;
   height: 20%;
+  animation: myAnim 2s ease 0s 1 alternate-reverse backwards;
  }
+
+ @keyframes myAnim {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  40% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  50% {
+    transform: scale3d(0.85, 1.15, 1);
+  }
+
+  65% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  75% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
 
  .about-text{
    margin: 5%;
