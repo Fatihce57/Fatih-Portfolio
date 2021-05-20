@@ -1,14 +1,13 @@
 .container_header{
     width: 100%;
    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
   
       }
 
    .text{
     padding-left: 15%;
+    padding-top: 8%;
     
    }
    .exclamation{
@@ -21,25 +20,46 @@
     font-size: 3em;
    }
 
-#hello{
-    color: white;
-    text-shadow: 5px 0px 7px #c72b2b, 1px 0px 7px #ff0000;
-    font-size: 5rem;
-}
-
-.fatihce{
-    color: rgb(223, 71, 91);
-    text-shadow: 5px 0px 7px #f8f3f3, 1px 0px 7px #f3eeee;
-    font-size: 4rem;
-}
-
-.stack{
-    color: white;
-    text-shadow: 5px 0px 7px #c72b2b, 1px 0px 7px #ff0000;
-    font-size: 3rem;
-}
-
-
-.smileicon{
+   .smileicon{
     color: yellow;
 }
+
+div.speed {
+   
+    height: 100%;
+    padding: 2%;
+    margin: 3%;
+    border-radius: 4px;
+    position: relative;
+    text-align: center;
+    animation: move 5s infinite;
+    opacity: 0.6;
+ }
+ div#linear {
+   animation-timing-function: linear;
+   color: white;
+    text-shadow: 3px 0px 4px #c72b2b, 1px 0px 7px #ff0000;
+    font-size: 5rem;
+    width: 20%;
+    
+ }
+ div#ease {
+   animation-timing-function: ease;
+   color: rgb(223, 71, 91);
+   text-shadow: 3px 0px 4px #f8f3f3, 1px 0px 7px #f3eeee;
+   font-size: 6rem;
+   width: 20%;
+ }
+ div#easeIn {
+   animation-timing-function: ease-in;
+   color: white;
+   text-shadow: 3px 0px 4px #c72b2b, 1px 0px 7px #ff0000;
+   font-size: 3rem;
+   width: 30%
+ }
+
+ @keyframes move {
+   0% {background-color: rgb(61, 58, 52); left: 0px; top: 0px;}
+   100% {background-color: rgb(219, 218, 197);  left: 60%; top: 0px;}
+ }
+
