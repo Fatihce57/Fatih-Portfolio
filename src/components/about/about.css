@@ -1,6 +1,5 @@
  .about {
   background-color: rgb(7, 33, 51);
- 
     height: 100vh;
     padding-left: 15%;
     color: white;
@@ -10,7 +9,7 @@
     text-align: center;
     color: rgb(253, 5, 129);
     font-size: 2rem;
-    
+    padding-top: 5%;    
     }
 
     .container-about{
@@ -19,42 +18,61 @@
       margin: 5%;
     }
 
- .about-img{
-  width: 20%;
-  height: 20%;
-  animation: myAnim 2s ease 0s 1 alternate-reverse backwards;
+ .about-text{
+   margin: 5% 0 5% 15%;
+   font-size: 2rem;
  }
 
- @keyframes myAnim {
-  0% {
-    transform: scale3d(1, 1, 1);
-  }
-
-  30% {
-    transform: scale3d(0.75, 1.25, 1);
-  }
-
-  40% {
-    transform: scale3d(1.25, 0.75, 1);
-  }
-
-  50% {
-    transform: scale3d(0.85, 1.15, 1);
-  }
-
-  65% {
-    transform: scale3d(1.05, 0.95, 1);
-  }
-
-  75% {
-    transform: scale3d(0.95, 1.05, 1);
-  }
-
-  100% {
-    transform: scale3d(1, 1, 1);
-  }
+ .about-fatih {
+  float: left;
+  margin:30% 0;
+  animation: fatih  ease-in-out 0.5s infinite alternate;
+  transform-origin: center -20px;
 }
 
- .about-text{
-   margin: 5%;
+.about-fatih:hover {
+  animation-play-state: paused;
+}
+
+.about-fatih Img {
+  border: 5px solid #f80a0a;
+
  }
+
+.about-fatih figcaption {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.about-fatih:after{
+  content: '';
+  position: absolute;
+  width: 20px; 
+  height: 20px;
+  border: 1.5px solid #ffffff;
+  top: -10px; 
+  left: 50%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
+}
+       
+.about-fatih:before{
+  content: '';
+  position: absolute;
+  top: -23px;
+  left: 50%;
+  display: block;
+  height: 44px;
+  width: 47px;
+  background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  z-index: 16;
+}
+        
+@keyframes fatih {
+  0% { transform: rotate(3deg); }
+  100% { transform: rotate(-3deg); }
+}
