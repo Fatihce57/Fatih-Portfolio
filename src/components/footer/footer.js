@@ -13,6 +13,7 @@ function Footer() {
 
     <div className="footer">
 <h2 id="contacthead">Contact</h2>
+
       <div className="container_footer">
         <div className="communication">
 

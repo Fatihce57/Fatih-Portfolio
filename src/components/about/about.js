@@ -9,10 +9,10 @@ function About() {
 
 <Container>
   <Row className="mt-5">
-    <Col lg={3}>
+    <Col lg={3} xs={9}>
 
       <Figure className="about-fatih">      
-    <Image className="w-100 h-100" src="./images/fatihphoto.jpg" roundedCircle />  
+    <Image src="./images/fatihphoto.jpg" roundedCircle />  
     <figcaption>Fatih</figcaption>
     </Figure>
     
