@@ -14,7 +14,7 @@ function Skills() {
       <Container>
         <Row>
           <Col className="skillsbar">
-            <i className="html5"><FaHtml5 /> </i>
+            <i className="html5"><FaHtml5 /></i>
             <div class="bar front expert" data-skill="HTML5"></div>
           </Col>
         </Row>
