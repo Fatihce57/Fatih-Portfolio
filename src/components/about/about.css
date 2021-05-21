@@ -1,8 +1,7 @@
  .about {
   background-color: rgb(7, 33, 51);
-    height: 100vh;
-  
-    color: white;
+   height: 100vh;
+   color: white;
     } 
 
     #abouthead {
@@ -12,11 +11,7 @@
     padding-top: 5%;    
     }
 
-    .container-about{
-      display: flex;
-      position: relative;
-      margin: 5%;
-    }
+   
 
  .about-text{
    margin: 5% 0 5% 15%;
@@ -27,7 +22,7 @@
   float: left;
   margin:30% 0;
   animation: fatih  ease-in-out 0.5s infinite alternate;
-  transform-origin: center -20px;
+  transform-origin: center -4%;
 }
 
 .about-fatih:hover {

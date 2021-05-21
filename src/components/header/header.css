@@ -56,7 +56,10 @@ div.speed {
 
  @keyframes move {
    0% {background-color: rgb(7, 33, 51); left: 0px; top: 0px;}
-   50% {background-color: rgb(63, 122, 98); left: 30%; top: 0px;}
-   100% {background-color: rgb(7, 33, 51);  left: 60%; top: 0px;}
+   20% {background-color: rgb(7, 33, 51); left: 15%; top: 0px;}
+   40% {background-color: rgb(206, 184, 144); left: 30%; top: 0px;}
+   60% {background-color: rgb(192, 141, 120); left: 45%; top: 0px;}
+   80% {background-color: rgb(7, 33, 51);  left: 60%; top: 0px;}
+   100% {background-color: rgb(7, 33, 51);  left: 80%; top: 0px;}
  }
 

@@ -1,7 +1,5 @@
 .project {
-
   color: rgb(255, 255, 255);
-  
   background-color: rgb(7, 33, 51);
   height: 100vh;
 }
@@ -10,8 +8,8 @@
   text-align: center;
   color: rgb(253, 5, 129);
   font-size: 2rem;
- 
-}
+  padding-top: 5%;  
+ }
 
 .container-corousel{
   width: 70%;
