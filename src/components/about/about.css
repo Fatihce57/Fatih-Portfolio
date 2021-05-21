@@ -1,7 +1,7 @@
  .about {
   background-color: rgb(7, 33, 51);
     height: 100vh;
-    padding-left: 15%;
+  
     color: white;
     } 
 
@@ -20,7 +20,7 @@
 
  .about-text{
    margin: 5% 0 5% 15%;
-   font-size: 2rem;
+   font-size: 1.5rem;
  }
 
  .about-fatih {
