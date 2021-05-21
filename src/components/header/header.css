@@ -2,11 +2,9 @@
     width: 100%;
    height: 100vh;
    
-  
       }
 
    .text{
-    padding-left: 15%;
     padding-top: 8%;
     
    }
@@ -24,15 +22,13 @@
     color: yellow;
 }
 
-div.speed {
-   
-    height: 100%;
+div.speed {     
     padding: 2%;
     margin: 3%;
     border-radius: 4px;
     position: relative;
     text-align: center;
-    animation: move 5s infinite;
+    animation: move 10s infinite;
     opacity: 0.6;
  }
  div#linear {
@@ -59,7 +55,11 @@ div.speed {
  }
 
  @keyframes move {
-   0% {background-color: rgb(61, 58, 52); left: 0px; top: 0px;}
-   100% {background-color: rgb(219, 218, 197);  left: 60%; top: 0px;}
+   0% {background-color: rgb(7, 33, 51); left: 0px; top: 0px;}
+   20% {background-color: rgb(7, 33, 51); left: 15%; top: 0px;}
+   40% {background-color: rgb(206, 184, 144); left: 30%; top: 0px;}
+   60% {background-color: rgb(192, 141, 120); left: 45%; top: 0px;}
+   80% {background-color: rgb(7, 33, 51);  left: 60%; top: 0px;}
+   100% {background-color: rgb(7, 33, 51);  left: 80%; top: 0px;}
  }
 

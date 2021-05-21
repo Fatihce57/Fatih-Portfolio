@@ -9,7 +9,7 @@ function About() {
 
 <Container>
   <Row className="mt-5">
-    <Col sm={3}>
+    <Col lg={3}>
 
       <Figure className="about-fatih">      
     <Image className="w-100 h-100" src="./images/fatihphoto.jpg" roundedCircle />  
@@ -17,7 +17,7 @@ function About() {
     </Figure>
     
     </Col>
-    <Col sm={8}><p className="about-text">
+    <Col lg={8}><p className="about-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi incidunt,
           consectetur inventore at, quam illo sint facilis praesentium nam dicta,
           consequatur veritatis asperiores temporibus soluta sapiente rerum
