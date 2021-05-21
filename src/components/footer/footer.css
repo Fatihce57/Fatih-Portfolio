@@ -15,7 +15,7 @@
 
 .container_footer {
   display: flex;
-  margin: 0 1%;
+ 
 }
 
 .communication {
@@ -25,17 +25,17 @@
 
 .address {
   margin: 1%;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-top: 5%;
 }
 .phone {
   margin: 1%;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .email {
   margin: 1%;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .com-icon {
@@ -50,7 +50,7 @@
 
 .social_media {
   padding-top: 1%;
-  width: 50%;
+  width: 100%;
   color: rgb(253, 5, 129);
 }
 
@@ -59,14 +59,13 @@
   text-align: center;
 }
 
-p {
+.aboutme p {
   font-size: 1rem;
   padding: 2% 2%;
   text-align: justify;
 }
 
 .container-sos-med {
-  margin: 0 25%;
   display: flex;
   justify-content: space-around;
 }
@@ -86,7 +85,7 @@ p {
   color: rgb(253, 5, 129);
   display: flex;
   justify-content: center;
-  padding-bottom: 2%;
+  padding:4% 0;
 }
 
 .copy {
