@@ -1,9 +1,8 @@
 .skills{
   background-color: rgb(7, 33, 51);
-  height: 100vh;
- 
-
-}
+  width: 100%;
+  height: 100%;
+ }
 
 #skillshead{
    text-align: center;
@@ -14,9 +13,9 @@
 
 .skillsbar{
    font-size: 2rem;
-   margin: 0 50% 3% 0;
-  
-   }
+   margin-right: 20%;
+   padding-top: 2%;
+     }
   
 
 .html5{
@@ -62,7 +61,6 @@
    background-color: #EEE;
    padding: 2px;
    border-radius: 15px;
-   margin-bottom: 5px;
    font-size: 1.2rem;
    color: #FFF;
    font-weight: bold;
@@ -82,11 +80,11 @@
  
  .bar.learning::before{
    width: calc(20% - 10px);
-   background-color: aqua;
+   background-color: rgba(236, 214, 15, 0.973);
  }
  .bar.basic::before{
    width: calc(30% - 10px);
-   background-color: #ffcc33;
+   background-color: aqua;
  }
   .bar.advanced::before{
    width: calc(80% - 10px);
