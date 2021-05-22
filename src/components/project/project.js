@@ -1,5 +1,5 @@
 import './project.css';
-import { Carousel, Container, Row, Col, Card, CardGroup } from 'react-bootstrap'
+import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 
 function Project() {
   return (
@@ -17,6 +17,7 @@ function Project() {
                   This is a wider card with supporting text below as a natural lead-in to
                   additional content. This content is a little bit longer.
       </Card.Text>
+         <Button variant="outline-primary" href="https://marsperseverance.netlify.app/" target="_blank">Link</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -27,8 +28,9 @@ function Project() {
                 <Card.Header>Clock</Card.Header>
                 <Card.Text style={{ height: '8rem' }}>
                   This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        content.
                 </Card.Text>
+                <Button variant="outline-danger" href="https://analoguhr.netlify.app/" target="_blank">Link</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -42,6 +44,7 @@ function Project() {
                   additional content. This card has even longer content than the first to
                   show that equal height action.
       </Card.Text>
+      <Button variant="outline-warning" href="https://filmmovies.netlify.app/" target="_blank">Link</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -55,6 +58,7 @@ function Project() {
                   additional content. This card has even longer content than the first to
                   show that equal height action.
       </Card.Text>
+      <Button variant="outline-success" href="https://googlesearchbar.netlify.app/" target="_blank">Link</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -68,6 +72,7 @@ function Project() {
                   additional content. This card has even longer content than the first to
                   show that equal height action.
       </Card.Text>
+      <Button variant="outline-info" href="#">Link</Button>
               </Card.Body>
             </Card>
           </Col>
