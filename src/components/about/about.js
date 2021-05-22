@@ -8,8 +8,8 @@ function About() {
      
 
 <Container className="mt-5">
-  <Row>
-    <Col xs={12} md={4} lg={4}>
+  <Row className="justify-content-center">
+    <Col xs={10} md={4} lg={4}>
 
       <Figure className="about-fatih">      
     <Image src="./images/fatihphoto.jpg" roundedCircle />  
