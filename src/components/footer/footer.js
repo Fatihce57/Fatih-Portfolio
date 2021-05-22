@@ -23,7 +23,7 @@ function Footer() {
 
         <Container className="social_media">
           <Row>
-            <Col xs={12} md={10} lg={10}>
+            <Col xs={12} md={8} lg={10}>
           <h3 className="aboutme">Informations </h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum totam quia labore aperiam inventore blanditiis optio excepturi, ab ipsa quasi fuga, esse in quas saepe molestiae aut a non?</p>
           <div className="container-sos-med">

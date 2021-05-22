@@ -1,40 +1,82 @@
 import './project.css';
-import {Carousel, Container, Row} from 'react-bootstrap'
+import { Carousel, Container, Row, Col, Card, CardGroup } from 'react-bootstrap'
 
 function Project() {
   return (
     <div className="project">
       <h2 id="projecthead">Project</h2>
 
-    
-    <Container>
-      <Row>
-<Carousel className="container-corousel">
+      <Container className="text-dark mt-5">
+        <Row className="justify-content-md-center">
+          <Col className="pb-5" xs={12} md={6} lg={4}>
+            <Card border="primary">
+              <iframe className="project-images" src="https://marsperseverance.netlify.app/" frameborder="0"></iframe>
+              <Card.Body>
+                <Card.Header>Perseverance</Card.Header>
+                <Card.Text style={{ height: '8rem' }}>
+                  This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This content is a little bit longer.
+      </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="pb-5" xs={12} md={6} lg={4}>
+            <Card border="danger">
+              <iframe className="project-images" src="https://analoguhr.netlify.app/" frameborder="0"></iframe>
+              <Card.Body>
+                <Card.Header>Clock</Card.Header>
+                <Card.Text style={{ height: '8rem' }}>
+                  This card has supporting text below as a natural lead-in to additional
+        content.{' '}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="pb-5" xs={12} md={6} lg={4}>
+            <Card>
+              <iframe className="project-images" src="https://filmmovies.netlify.app/" frameborder="0"></iframe>
+              <Card.Body>
+                <Card.Header>Film Movies</Card.Header>
+                <Card.Text style={{ height: '8rem' }}>
+                  This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to
+                  show that equal height action.
+      </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="pb-5" xs={12} md={6} lg={4}>
+            <Card>
+              <iframe className="project-images" src="https://googlesearchbar.netlify.app/" frameborder="0"></iframe>
+              <Card.Body>
+                <Card.Header>Google Search Bar</Card.Header>
+                <Card.Text style={{ height: '8rem' }}>
+                  This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to
+                  show that equal height action.
+      </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="pb-5" xs={12} md={6} lg={4}>
+            <Card>
+              <img className="project-images" src="images/comingsoon.jpg" alt="" />
+               <Card.Body>
+                <Card.Header>City Project</Card.Header>
+                <Card.Text style={{ height: '8rem' }}>
+                  This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to
+                  show that equal height action.
+      </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
 
-    <Carousel.Item>
-  <h3>Perseverance</h3>
-   <iframe className="project-images d-block w-100" src="https://marsperseverance.netlify.app/" frameborder="0"></iframe>
-    </Carousel.Item>
+      </Container>
 
-     <Carousel.Item>
-  <h3>Clock</h3>
-    <iframe className="project-images d-block w-100" src="https://analoguhr.netlify.app/" frameborder="0"></iframe>
-    </Carousel.Item>
-   
-  <Carousel.Item>
-  <h3>Movies</h3>
-    <iframe className="project-images d-block w-100" src="https://filmmovies.netlify.app/" frameborder="0"></iframe>
-    </Carousel.Item>
-    
-  <Carousel.Item>
-  <h3>Google Search</h3>
-    <iframe className="project-images d-block w-100" src="https://googlesearchbar.netlify.app/" frameborder="0"></iframe>
-   </Carousel.Item>
 
-</Carousel>
-</Row>
-</Container>
-      
+
 
     </div>
   );
