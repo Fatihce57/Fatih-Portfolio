@@ -20,6 +20,9 @@ height: 30em;
   .project-images{
 height: 300px;
   }
+  #projecthead{
+    font-size: 1.5rem;
+  }
    }
 
 
@@ -28,11 +31,17 @@ height: 300px;
   .project-images{
     height: 450px;
       }
+      #projecthead{
+        font-size: 1.6rem;
+      }
   }
 
 @media only screen and (min-width: 768px) {
   .project-images{
     height: 400px;
+      }
+      #projecthead{
+        font-size: 1.8rem;
       }
 } 
 
@@ -40,5 +49,8 @@ height: 300px;
 @media only screen and (min-width: 992px) {
   .project-images{
     height: 500px;
+      }
+      #projecthead{
+        font-size: 2rem;
       }
 } 
