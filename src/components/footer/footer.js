@@ -13,7 +13,7 @@ function Footer() {
       <Container className="container_footer">
         <Container className="communication">
           <Row>
-            <Col xs={12} md={10} lg={6}>
+            <Col xs={12} sm={11} md={12} lg={12}>
             <i className="address"><FaMapMarkerAlt /> Berlin, Germany</i> <br />
             <i className="phone"><FaPhoneAlt /> +49 178 000 00</i><br />
             <i className="email"><FaEnvelope /> fatihce57@gmail.com</i>
@@ -23,7 +23,7 @@ function Footer() {
 
         <Container className="social_media">
           <Row>
-            <Col xs={12} md={8} lg={10}>
+            <Col xs={12} sm={10} md={12} lg={12} >
           <h3 className="aboutme">Informations </h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum totam quia labore aperiam inventore blanditiis optio excepturi, ab ipsa quasi fuga, esse in quas saepe molestiae aut a non?</p>
           <div className="container-sos-med">
