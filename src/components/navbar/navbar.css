@@ -10,3 +10,8 @@
  .sos-med{
    float: right;
  }
+ @media (max-width:920px) {
+   .sos-med {
+     display: none;
+   }
+ } 
