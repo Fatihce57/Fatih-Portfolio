@@ -8,7 +8,7 @@ function Project() {
 
       <Container className="text-dark mt-5">
         <Row className="justify-content-center">
-          <Col className="pb-5" xs={10} md={6} lg={4}>
+          <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="primary">
               <iframe className="project-images" src="https://marsperseverance.netlify.app/" frameborder="0"></iframe>
               <Card.Body>
@@ -21,7 +21,7 @@ function Project() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="pb-5" xs={10} md={6} lg={4}>
+          <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="danger">
               <iframe className="project-images" src="https://analoguhr.netlify.app/" frameborder="0"></iframe>
               <Card.Body>
@@ -34,7 +34,7 @@ function Project() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="pb-5" xs={10} md={6} lg={4}>
+          <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="warning">
               <iframe className="project-images" src="https://filmmovies.netlify.app/" frameborder="0"></iframe>
               <Card.Body>
@@ -48,7 +48,7 @@ function Project() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="pb-5" xs={10} md={6} lg={4}>
+          <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="success">
               <iframe className="project-images" src="https://googlesearchbar.netlify.app/" frameborder="0"></iframe>
               <Card.Body>
