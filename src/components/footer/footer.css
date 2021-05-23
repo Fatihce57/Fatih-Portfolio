@@ -93,7 +93,30 @@
   margin: 0 1%;
 }
 
+@media only screen and (max-width: 576px) {
+  #contacthead{
+    font-size: 1.5rem;
+  }
+   }
+ 
+ @media only screen and (min-width: 576px) {
+  #contacthead{
+        font-size: 1.6rem;
+      }
+  }
 
+@media only screen and (min-width: 768px) {
+  #contacthead{
+    font-size: 1.8rem;
+}
+}
+
+
+@media only screen and (min-width: 992px) {
+  #contacthead{
+    font-size: 2rem;
+}
+}
 
 
 

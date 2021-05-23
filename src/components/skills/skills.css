@@ -92,4 +92,28 @@
    width: calc(90% - 10px);
    background-color: orangered;
  }
+
+ @media only screen and (max-width: 576px) {
+  #skillshead{
+    font-size: 1.5rem;
+  }
+   }
  
+ @media only screen and (min-width: 576px) {
+        #skillshead{
+        font-size: 1.6rem;
+      }
+  }
+
+@media only screen and (min-width: 768px) {
+  #skillshead{
+    font-size: 1.8rem;
+}
+}
+
+
+@media only screen and (min-width: 992px) {
+  #skillshead{
+    font-size: 2rem;
+}
+}

@@ -62,7 +62,7 @@ function Project() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="pb-5" xs={10} md={6} lg={4}>
+          <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="info">
               <img className="project-images" src="images/comingsoon.jpg" alt="" />
                <Card.Body>
