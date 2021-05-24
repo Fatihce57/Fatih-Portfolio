@@ -14,9 +14,9 @@ function Footer() {
         <Container className="communication">
           <Row>
             <Col xs={12} sm={11} md={12} lg={12}>
-            <i className="address"><FaMapMarkerAlt /> Berlin, Germany</i> <br />
-            <i className="phone"><FaPhoneAlt /> +49 178 000 00</i><br />
-            <i className="email"><FaEnvelope /> fatihce57@gmail.com</i>
+              <i className="address"><FaMapMarkerAlt /> Berlin, Germany</i> <br />
+              <i className="phone"><FaPhoneAlt /> +49 178 000 00</i><br />
+              <i className="email"><FaEnvelope /> fatihce57@gmail.com</i>
             </Col>
           </Row>
         </Container>
@@ -24,22 +24,22 @@ function Footer() {
         <Container className="social_media">
           <Row>
             <Col xs={12} sm={10} md={12} lg={12} >
-          <h3 className="aboutme">Informations </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum totam quia labore aperiam inventore blanditiis optio excepturi, ab ipsa quasi fuga, esse in quas saepe molestiae aut a non?</p>
-          <div className="container-sos-med">
-            <a href="#/"><h3 className="sos_med"><FaFacebookF /></h3></a>
-            <a href="#/"><h3 className="sos_med"><FaTwitter /></h3></a>
-            <a href="https://www.linkedin.com/feed/" target="_blank"><h3 className="sos_med"><FaLinkedinIn /></h3></a>
-            <a href="https://github.com/Fatihce57" target="_blank"><h3 className="sos_med"><FaGithub /></h3></a>
-          </div>
-          </Col>
+              <h3 className="aboutme">Informations </h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum totam quia labore aperiam inventore blanditiis optio excepturi, ab ipsa quasi fuga, esse in quas saepe molestiae aut a non?</p>
+              <div className="container-sos-med">
+                <a href="#/"><h3 className="sos_med"><FaFacebookF /></h3></a>
+                <a href="#/"><h3 className="sos_med"><FaTwitter /></h3></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank"><h3 className="sos_med"><FaLinkedinIn /></h3></a>
+                <a href="https://github.com/Fatihce57" target="_blank"><h3 className="sos_med"><FaGithub /></h3></a>
+              </div>
+            </Col>
           </Row>
         </Container>
       </Container>
       <Container>
-      <h4 className="fatih">Fatih Cengiz <span className="copy"><FaCopyright /></span> 2021</h4>
+        <h4 className="fatih">Fatih Cengiz <span className="copy"><FaCopyright /></span> 2021</h4>
       </Container>
-    
+
     </div>
   );
 }

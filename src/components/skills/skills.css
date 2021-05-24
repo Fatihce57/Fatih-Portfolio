@@ -1,119 +1,119 @@
-.skills{
+.skills {
   background-color: rgb(7, 33, 51);
-  width: 100%;
- }
-
-#skillshead{
-   text-align: center;
-   color: rgb(253, 5, 129);
-   font-size: 2rem;
-   padding-top: 4%;  
+  padding-bottom: 14%;
 }
 
-.skillsbar{
-   font-size: 2rem;
-   margin-right: 20%;
-   }
-  
+.skills-container{
+  padding-top: 5%;
+}
 
-.html5{
+#skillshead {
+  text-align: center;
+  color: rgb(253, 5, 129);
+  font-size: 2rem;
+  padding-top: 4%;
+}
+
+.skillsbar {
+  font-size: 2rem;
+  margin-right: 20%;
+}
+
+.html5 {
   color: orangered;
-  
- }
+}
 
-.css3{
+.css3 {
   color: blue;
 }
 
-.js{
+.js {
   color: #ffcc33;
 }
 
-.react{
+.react {
   color: aqua;
 }
 
+@keyframes load {
+  from {
+    width: 0%;
+  }
+}
+@-webkit-keyframes load {
+  from {
+    width: 0%;
+  }
+}
+@-moz-keyframes load {
+  from {
+    width: 0%;
+  }
+}
+@-o-keyframes load {
+  from {
+    width: 0%;
+  }
+}
 
- @keyframes load{
-   from {
-     width: 0%
-   }
- }
- @-webkit-keyframes load{
-   from {
-     width: 0%
-   }
- }
- @-moz-keyframes load{
-   from {
-     width: 0%
-   }
- }
- @-o-keyframes load{
-   from {
-     width: 0%
-   }
- }
- 
- .bar{
-   background-color: #EEE;
-   padding: 2px;
-   border-radius: 15px;
-   font-size: 1.2rem;
-   color: #FFF;
-   font-weight: bold;
-   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
- }
- .bar::before{
-   content:  attr(data-skill);
-   background-color: #f3b0ff;
-   display: inline-block;
-   padding: 5px 0 5px 10px;
-   border-radius: inherit;
-   animation: load 2s 0s;
-   -webkit-animation: load 2s 0s;
-   -moz-animation: load 2s 0s;
-   -o-animation: load 2s 0s;
- }
- 
- .bar.learning::before{
-   width: calc(20% - 10px);
-   background-color: rgba(236, 214, 15, 0.973);
- }
- .bar.basic::before{
-   width: calc(30% - 10px);
-   background-color: aqua;
- }
-  .bar.advanced::before{
-   width: calc(80% - 10px);
-   background-color: blue;
- }
- .bar.expert::before{
-   width: calc(90% - 10px);
-   background-color: orangered;
- }
+.bar {
+  background-color: #eee;
+  padding: 2px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.bar::before {
+  content: attr(data-skill);
+  background-color: #f3b0ff;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
 
- @media only screen and (max-width: 576px) {
-  #skillshead{
+.bar.learning::before {
+  width: calc(20% - 10px);
+  background-color: rgba(236, 214, 15, 0.973);
+}
+.bar.basic::before {
+  width: calc(30% - 10px);
+  background-color: aqua;
+}
+.bar.advanced::before {
+  width: calc(80% - 10px);
+  background-color: blue;
+}
+.bar.expert::before {
+  width: calc(90% - 10px);
+  background-color: orangered;
+}
+
+@media only screen and (max-width: 576px) {
+  #skillshead {
     font-size: 1.5rem;
   }
-   }
- 
- @media only screen and (min-width: 576px) {
-        #skillshead{
-        font-size: 1.6rem;
-      }
+}
+
+@media only screen and (min-width: 576px) {
+  #skillshead {
+    font-size: 1.6rem;
   }
+}
 
 @media only screen and (min-width: 768px) {
-  #skillshead{
+  #skillshead {
     font-size: 1.8rem;
+  }
 }
-}
-
 
 @media only screen and (min-width: 992px) {
-  #skillshead{
+  #skillshead {
     font-size: 2rem;
-}
+  }
 }

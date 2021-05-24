@@ -1,7 +1,7 @@
 .project {
   color: rgb(255, 255, 255);
   background-color: rgb(7, 33, 51);
-  width: 100%;
+ padding-bottom: 5%;
 }
 
 #projecthead {
@@ -9,48 +9,44 @@
   color: rgb(253, 5, 129);
   font-size: 2rem;
   padding-top: 4%;
-   }
+}
 
+.project-images {
+  height: 30em;
+}
 
-.project-images{
-height: 30em;
- }
-
- @media only screen and (max-width: 576px) {
-  .project-images{
-height: 300px;
+@media only screen and (max-width: 576px) {
+  .project-images {
+    height: 300px;
   }
-  #projecthead{
+  #projecthead {
     font-size: 1.5rem;
   }
-   }
-
-
+}
 
 @media only screen and (min-width: 576px) {
-  .project-images{
+  .project-images {
     height: 450px;
-      }
-      #projecthead{
-        font-size: 1.6rem;
-      }
   }
+  #projecthead {
+    font-size: 1.6rem;
+  }
+}
 
 @media only screen and (min-width: 768px) {
-  .project-images{
+  .project-images {
     height: 400px;
-      }
-      #projecthead{
-        font-size: 1.8rem;
-      }
-} 
-
+  }
+  #projecthead {
+    font-size: 1.8rem;
+  }
+}
 
 @media only screen and (min-width: 992px) {
-  .project-images{
+  .project-images {
     height: 500px;
-      }
-      #projecthead{
-        font-size: 2rem;
-      }
-} 
+  }
+  #projecthead {
+    font-size: 2rem;
+  }
+}
