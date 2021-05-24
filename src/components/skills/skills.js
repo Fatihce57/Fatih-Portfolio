@@ -11,7 +11,7 @@ function Skills() {
       <h1 id="skillshead">Skills</h1>
 
 
-      <Container className="mt-5">
+      <Container className="skills-container mt-5">
         <Row>
           <Col className="skillsbar">
             <i className="html5"><FaHtml5 /></i>

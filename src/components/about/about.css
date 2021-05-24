@@ -1,26 +1,26 @@
- .about {
+.about {
   background-color: rgb(7, 33, 51);
   color: white;
-  width: 100%;
-     } 
+padding-bottom: 5%;
+}
 
-    #abouthead {
-    text-align: center;
-    color: rgb(253, 5, 129);
-    font-size: 2rem;
-    padding-top: 4%;    
-    }
+#abouthead {
+  text-align: center;
+  color: rgb(253, 5, 129);
+  font-size: 2rem;
+  padding-top: 4%;
+}
 
- .about-text{
-  margin: 0 3%;
-   font-size: 1.5rem;
-   text-align: justify;
- }
+.about-text {
+  margin: 20% 3%;
+  font-size: 1.5rem;
+  text-align: justify;
+}
 
- .about-fatih {
-  float: left;
-  margin:20% 0;
-  animation: fatih  ease-in-out 0.5s infinite alternate;
+.about-fatih {
+  
+  margin: 20% 0;
+  animation: fatih ease-in-out 0.5s infinite alternate;
   transform-origin: center -4%;
 }
 
@@ -30,30 +30,30 @@
 
 .about-fatih Img {
   border: 5px solid #f80a0a;
-width: 100%;
- }
+  width: 100%;
+}
 
 .about-fatih figcaption {
   font-size: 1.5rem;
   text-align: center;
 }
 
-.about-fatih:after{
-  content: '';
+.about-fatih:after {
+  content: "";
   position: absolute;
-  width: 20px; 
+  width: 20px;
   height: 20px;
   border: 1.5px solid #ffffff;
-  top: -10px; 
+  top: -10px;
   left: 50%;
   z-index: 0;
   border-bottom: none;
   border-right: none;
   transform: rotate(45deg);
 }
-       
-.about-fatih:before{
-  content: '';
+
+.about-fatih:before {
+  content: "";
   position: absolute;
   top: -23px;
   left: 50%;
@@ -65,50 +65,49 @@ width: 100%;
   background-repeat: no-repeat;
   z-index: 16;
 }
-        
+
 @keyframes fatih {
-  0% { transform: rotate(3deg); }
-  100% { transform: rotate(-3deg); }
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
 }
 
-
 @media only screen and (max-width: 576px) {
-  .about-text{
+  .about-text {
     font-size: 1.1rem;
-   }
-   #abouthead {
+  }
+  #abouthead {
     font-size: 1.5rem;
   }
 }
 
-
 @media only screen and (min-width: 576px) {
-  .about-text{
+  .about-text {
     font-size: 1.3rem;
-   }
-   #abouthead {
+  }
+  #abouthead {
     font-size: 1.6rem;
   }
-  }
+}
 
 @media only screen and (min-width: 768px) {
   .about-text {
     font-size: 1.3rem;
-   }
-   .fatih-caption{
-     font-size: 10px;
-   }
-   #abouthead {
+  }
+
+  #abouthead {
     font-size: 1.8rem;
   }
-} 
-
+}
 
 @media only screen and (min-width: 992px) {
-  .about-text .fatih-caption{
-   font-size: 1.5rem;
+  .about-text  {
+    font-size: 1.5rem;
   }
   #abouthead {
     font-size: 2rem;
   }
-} 
+}

@@ -1,15 +1,15 @@
-.fixed-top{
+.fixed-top {
   opacity: 0.8;
   background-color: rgb(7, 33, 51);
 }
 
- .sos-med{
-   position: fixed;
-   top: 0;
-   right: 0;
- }
+.sos-med {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
 
- @media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   .sos-med {
     display: none;
   }
@@ -17,10 +17,9 @@
     font-size: 0.7em;
   }
   .container-navbar {
-    padding-top: 5% ; 
-   }
+    padding-top: 5%;
+  }
 }
-
 
 @media only screen and (min-width: 576px) {
   .sos-med {
@@ -30,10 +29,9 @@
     font-size: 0.8em;
   }
   .container-navbar {
-    padding-top: 5% ; 
-   }
+    padding-top: 5%;
+  }
 }
-
 
 @media only screen and (min-width: 768px) {
   .sos-med {
@@ -43,13 +41,15 @@
     font-size: 0.9em;
   }
   .container-navbar {
-    padding-top: 5% ; 
-   }
-} 
-
+    padding-top: 5%;
+  }
+}
 
 @media only screen and (min-width: 992px) {
-    .text-danger {
+  .sos-med {
+    display: inline-flex;
+  }
+  .text-danger {
     font-size: 1em;
   }
-} 
+}

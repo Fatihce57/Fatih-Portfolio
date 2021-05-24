@@ -1,29 +1,26 @@
 .footer {
   background-color: rgb(7, 33, 51);
   width: 100%;
+}
 
- }
-
-
-#contacthead{
+#contacthead {
   text-align: center;
   color: rgb(253, 5, 129);
   font-size: 2rem;
-  padding-top: 4%;  
-  
+  padding-top: 4%;
 }
 
 .container_footer {
   display: flex;
- padding: 5% 0;
+  padding: 5% 0;
 }
 
 .communication {
   width: 50%;
   color: rgb(253, 5, 129);
-  display:flex;
+  display: flex;
   align-items: center;
-  }
+}
 
 .address {
   margin: 1%;
@@ -62,7 +59,7 @@
 
 .aboutme p {
   font-size: 1rem;
-  padding:0 2% 2% 2%;
+  padding: 0 2% 2% 2%;
   text-align: justify;
 }
 
@@ -75,11 +72,9 @@
   font-size: 1.5rem;
   color: rgb(165, 115, 23);
 }
-.sos_med:hover{
-  color:rgb(253, 5, 129);
- 
+.sos_med:hover {
+  color: rgb(253, 5, 129);
 }
-
 
 .fatih {
   font-size: 0.8rem;
@@ -87,38 +82,32 @@
   display: flex;
   justify-content: center;
   padding:4% 0;
-}
-
-.copy {
+  }
+  
+ .copy {
   margin: 0 1%;
 }
 
 @media only screen and (max-width: 576px) {
-  #contacthead{
+  #contacthead {
     font-size: 1.5rem;
   }
-   }
- 
- @media only screen and (min-width: 576px) {
-  #contacthead{
-        font-size: 1.6rem;
-      }
+}
+
+@media only screen and (min-width: 576px) {
+  #contacthead {
+    font-size: 1.6rem;
   }
+}
 
 @media only screen and (min-width: 768px) {
-  #contacthead{
+  #contacthead {
     font-size: 1.8rem;
+  }
 }
-}
-
 
 @media only screen and (min-width: 992px) {
-  #contacthead{
+  #contacthead {
     font-size: 2rem;
+  }
 }
-}
-
-
-
-
-
