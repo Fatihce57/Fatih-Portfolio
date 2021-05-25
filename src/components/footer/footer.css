@@ -1,6 +1,5 @@
 .footer {
   background-color: rgb(7, 33, 51);
-  width: 100%;
 }
 
 #contacthead {
@@ -13,13 +12,12 @@
 .container_footer {
   display: flex;
   padding: 5% 0;
-}
+  }
 
 .communication {
-  width: 50%;
-  color: rgb(253, 5, 129);
-  display: flex;
-  align-items: center;
+  width: 65%;
+  color: rgb(165, 115, 23);
+  
 }
 
 .address {
@@ -42,14 +40,8 @@
   font-size: 1rem;
 }
 
-.email span {
-  color: rgb(76, 165, 233);
-  text-decoration: underline;
-}
-
 .social_media {
-  width: 100%;
-  color: rgb(253, 5, 129);
+  color: rgb(165, 115, 23);
 }
 
 .aboutme {
@@ -78,7 +70,7 @@
 
 .fatih {
   font-size: 0.8rem;
-  color: rgb(253, 5, 129);
+  color: white;
   display: flex;
   justify-content: center;
   padding:4% 0;

@@ -14,19 +14,18 @@ function Footer() {
         <Container className="communication">
           <Row>
             <Col xs={12} sm={11} md={12} lg={12}>
-              <i className="address"><FaMapMarkerAlt /> Berlin, Germany</i> <br />
-              <i className="phone"><FaPhoneAlt /> +49 000 000 00</i><br />
-              <i className="email"><FaEnvelope /> fatihce57@gmail.com</i>
+              <i className="address"><FaMapMarkerAlt />Berlin, Germany</i> <br />
+              <i className="phone"><FaPhoneAlt />+49 1577 500 58 93</i><br />
+              <i className="email"><FaEnvelope />fatihce57@gmail.com</i>
             </Col>
           </Row>
         </Container>
 
         <Container className="social_media">
           <Row>
-            <Col xs={12} sm={10} md={12} lg={12} >
+            <Col xs={12} sm={11} md={12} lg={12} >
               <h3 className="aboutme">Informations </h3>
-              <p>I'm available for freelance work.
-Drop me a line if you fancy a chat. You can always contact me via my social media gifts or mail. I will give you feedback within 1 day.</p>
+              <p>I'm available for freelance work. Drop me a line if you fancy a chat. You can always contact me via my social media accounts or mail. I will give you feedback within 1 day.</p>
               <div className="container-sos-med">
                 <a href="#/"><h3 className="sos_med"><FaFacebookF /></h3></a>
                 <a href="#/"><h3 className="sos_med"><FaTwitter /></h3></a>

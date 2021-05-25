@@ -14,7 +14,7 @@ function Project() {
               <Card.Body>
                 <Card.Header>Perseverance</Card.Header>
                 <Card.Text className="information">
-                  It is a very nice website where you can find the latest up-to-date information about the space rocket perseverance, which was sent to mars by nasa.
+                  It is a very nice website where you can find the latest up-to-date information about the space rocket Perseverance, which was sent to Mars by Nasa.
       </Card.Text>
                 <Button variant="outline-primary" href="https://marsperseverance.netlify.app/" target="_blank">Link</Button>
               </Card.Body>
@@ -26,7 +26,7 @@ function Project() {
               <Card.Body>
                 <Card.Header>Clock</Card.Header>
                 <Card.Text className="information">
-                  How would you like to keep track of your time in a digital clock prepared with javascript?
+                  How would you like to keep track of your time in a digital clock prepared with JavaScript?
                 </Card.Text>
                 <Button variant="outline-danger" href="https://analoguhr.netlify.app/" target="_blank">Link</Button>
               </Card.Body>
@@ -38,7 +38,7 @@ function Project() {
               <Card.Body>
                 <Card.Header>Film Movies</Card.Header>
                 <Card.Text className="information">
-                  Would you like to check out a movie list made with react? It is not complete yet, but it is worth seeing even in its current state.
+                  Would you like to check out a movie list made with React? It is not complete yet, but it is worth seeing even in its current state.
       </Card.Text>
                 <Button variant="outline-warning" href="https://filmmovies.netlify.app/" target="_blank">Link</Button>
               </Card.Body>

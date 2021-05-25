@@ -1,8 +1,7 @@
 import './skills.css';
-import { FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaSass, FaNodeJs } from "react-icons/fa";
 import { SiJavascript, SiReact } from "react-icons/si";
-import { Container, Row, Col } from 'react-bootstrap'
-
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Skills() {
   return (
@@ -10,40 +9,22 @@ function Skills() {
 
       <h1 id="skillshead">Skills</h1>
 
-
-      <Container className="skills-container mt-5">
+      <Container>
         <Row>
-          <Col className="skillsbar">
-            <i className="html5"><FaHtml5 /></i>
-            <div class="bar front expert" data-skill="HTML5"></div>
-          </Col>
+          <Col xs={3}><i className="skills-icon html5"><FaHtml5 /></i></Col>
+          <Col xs={{ span: 3, offset: 4 }}><i className="skills-icon css3"><FaCss3Alt /></i></Col>
         </Row>
         <Row>
-          <Col className="skillsbar">
-            <i className="css3"><FaCss3Alt /></i>
-            <div class="bar front advanced" data-skill="CSS3"></div>
-          </Col>
+          <Col xs={{ span: 3, offset: 3 }}><i className="skills-icon js"><SiJavascript /></i></Col>
+          <Col xs={{ span: 3, offset: 3 }}><i className="skills-icon react"><SiReact /></i></Col>
         </Row>
         <Row>
-          <Col className="skillsbar">
-            <i className="js"><SiJavascript /></i>
-            <div class="bar front learning" data-skill="Javascript"></div>
-          </Col>
+          <Col xs={{ span: 3, offset: 1 }}><i className="skills-icon sass"><FaSass /></i> </Col>
+          <Col xs={{ span: 3, offset: 4 }}><i className="skills-icon node" ><FaNodeJs /></i> </Col>
         </Row>
-        <Row>
-          <Col className="skillsbar">
-            <i className="react"><SiReact /></i>
-            <div class="bar front basic" data-skill="React"></div>
-          </Col>
-        </Row>
-
       </Container>
 
     </div>
-
-
-
-
 
   );
 }
