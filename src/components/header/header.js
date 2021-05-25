@@ -9,7 +9,7 @@ function Header() {
 
     <div className="container_header">
 
-      <Container className="text">
+      <Container className="text-header">
         <Row>
           <Col className="head-res" xs={10} sm={10} md={11} lg={12}><div class="speed" id="linear"><h1 id="hello">Hello <span className="exclamation">!</span></h1></div></Col>
         </Row>
