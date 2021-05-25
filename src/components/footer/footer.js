@@ -25,7 +25,7 @@ function Footer() {
           <Row>
             <Col xs={12} sm={10} md={12} lg={12} >
               <h3 className="aboutme">Informations </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum totam quia labore aperiam inventore blanditiis optio excepturi, ab ipsa quasi fuga, esse in quas saepe molestiae aut a non?</p>
+              <p>Serbest çalışma için müsaitim. Sohbet etmek istiyorsan bana bir mesaj yaz. You can always contact me via my social media gifts or mail. I will give you feedback within 1 day.</p>
               <div className="container-sos-med">
                 <a href="#/"><h3 className="sos_med"><FaFacebookF /></h3></a>
                 <a href="#/"><h3 className="sos_med"><FaTwitter /></h3></a>
