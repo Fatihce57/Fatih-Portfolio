@@ -1,7 +1,7 @@
 .about {
   background-color: rgb(7, 33, 51);
   color: white;
-padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 #abouthead {
@@ -12,13 +12,11 @@ padding-bottom: 5%;
 }
 
 .about-text {
-  margin: 20% 3%;
-  font-size: 1.5rem;
+  margin: 5% 3%;
   text-align: justify;
 }
 
 .about-fatih {
-  
   margin: 20% 0;
   animation: fatih ease-in-out 0.5s infinite alternate;
   transform-origin: center -4%;
@@ -39,7 +37,7 @@ padding-bottom: 5%;
 }
 
 .about-fatih:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 20px;
   height: 20px;
@@ -53,7 +51,7 @@ padding-bottom: 5%;
 }
 
 .about-fatih:before {
-  content: "";
+  content: '';
   position: absolute;
   top: -23px;
   left: 50%;
@@ -95,7 +93,7 @@ padding-bottom: 5%;
 
 @media only screen and (min-width: 768px) {
   .about-text {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   #abouthead {
@@ -104,8 +102,8 @@ padding-bottom: 5%;
 }
 
 @media only screen and (min-width: 992px) {
-  .about-text  {
-    font-size: 1.5rem;
+  .about-text {
+    font-size: 2.2rem;
   }
   #abouthead {
     font-size: 2rem;

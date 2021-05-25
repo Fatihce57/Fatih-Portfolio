@@ -22,6 +22,10 @@
   #projecthead {
     font-size: 1.5rem;
   }
+  .information{
+    height: 4rem;
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen and (min-width: 576px) {
@@ -30,6 +34,10 @@
   }
   #projecthead {
     font-size: 1.6rem;
+  }
+  .information{
+    height: 4rem;
+    font-size: 1rem;
   }
 }
 
@@ -40,6 +48,10 @@
   #projecthead {
     font-size: 1.8rem;
   }
+  .information{
+    height: 5rem;
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -49,4 +61,9 @@
   #projecthead {
     font-size: 2rem;
   }
+  .information{
+    height: 7rem;
+    font-size: 1rem;
+  }
 }
+
