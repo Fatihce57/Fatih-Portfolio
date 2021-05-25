@@ -19,7 +19,7 @@ function About() {
 
           <Col xs={12} sm={12} md={7} lg={8}>
             <p className="about-text">
-              I studied economics in Turkey. I have work experience in different fields. I have been living in Germany since 2018. Now I'm going on a full-stack web developer course in Germany at DCI. I enjoy building interactive, effect heavy javascript applications with an eye on animated content. I love doing projects with React.
+              I studied economics in Turkey. I have work experience in different fields. I have been living in Germany since 2018. I'm currently taking a full-stack web developer course in Germany at DCI. I enjoy building interactive, effect-heavy JavaScript applications with an eye on animated content. I love doing projects with React.
       </p>
           </Col>
         </Row>

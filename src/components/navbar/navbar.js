@@ -20,9 +20,10 @@ function Navigation() {
                 <Nav.Link className="text-danger" href="#abouthead">About</Nav.Link>
                 <Nav.Link className="text-danger" href="#projecthead">Project</Nav.Link>
                 <Nav.Link className="text-danger" href="#skillshead">Skills</Nav.Link>
+                <Nav.Link className="text-danger" href="#contacthead">Contact</Nav.Link>
               </Nav>
             </Col>
-            <Col className="sos-contact" >
+            {/* <Col className="sos-contact" >
               <Nav className="sos-med">
                 <Nav.Link className="text-warning" href="#contacthead">Contact</Nav.Link>
                 <Nav.Link href="#/"><h3 className="sos_med"><FaFacebookF /></h3></Nav.Link>
@@ -30,7 +31,7 @@ function Navigation() {
                 <Nav.Link href="https://www.linkedin.com/feed/" target="_blank"><h3 className="sos_med"><FaLinkedinIn /></h3></Nav.Link>
                 <Nav.Link href="https://github.com/Fatihce57" target="_blank"><h3 className="sos_med"><FaGithub /></h3></Nav.Link>
               </Nav>
-            </Col>
+            </Col> */}
           </Navbar.Collapse>
         </Navbar>
 

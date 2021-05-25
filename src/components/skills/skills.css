@@ -3,10 +3,6 @@
   padding-bottom: 14%;
 }
 
-.skills-container{
-  padding-top: 5%;
-}
-
 #skillshead {
   text-align: center;
   color: rgb(253, 5, 129);
@@ -14,9 +10,8 @@
   padding-top: 4%;
 }
 
-.skillsbar {
-  font-size: 2rem;
-  margin-right: 20%;
+.skills-icon {
+  font-size: 150px;
 }
 
 .html5 {
@@ -35,85 +30,34 @@
   color: aqua;
 }
 
-@keyframes load {
-  from {
-    width: 0%;
-  }
-}
-@-webkit-keyframes load {
-  from {
-    width: 0%;
-  }
-}
-@-moz-keyframes load {
-  from {
-    width: 0%;
-  }
-}
-@-o-keyframes load {
-  from {
-    width: 0%;
-  }
+.sass {
+  color: #d20df5;
 }
 
-.bar {
-  background-color: #eee;
-  padding: 2px;
-  border-radius: 15px;
-  font-size: 1.2rem;
-  color: #fff;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-.bar::before {
-  content: attr(data-skill);
-  background-color: #f3b0ff;
-  display: inline-block;
-  padding: 5px 0 5px 10px;
-  border-radius: inherit;
-  animation: load 2s 0s;
-  -webkit-animation: load 2s 0s;
-  -moz-animation: load 2s 0s;
-  -o-animation: load 2s 0s;
-}
-
-.bar.learning::before {
-  width: calc(20% - 10px);
-  background-color: rgba(236, 214, 15, 0.973);
-}
-.bar.basic::before {
-  width: calc(30% - 10px);
-  background-color: aqua;
-}
-.bar.advanced::before {
-  width: calc(80% - 10px);
-  background-color: blue;
-}
-.bar.expert::before {
-  width: calc(90% - 10px);
-  background-color: orangered;
+.node {
+  color: green;
 }
 
 @media only screen and (max-width: 576px) {
-  #skillshead {
-    font-size: 1.5rem;
+  .skills-icon {
+    font-size: 5rem;
   }
 }
 
 @media only screen and (min-width: 576px) {
-  #skillshead {
-    font-size: 1.6rem;
+  .skills-icon {
+    font-size: 7rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  #skillshead {
-    font-size: 1.8rem;
+  .skills-icon {
+    font-size: 9rem;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  #skillshead {
-    font-size: 2rem;
+  .skills-icon {
+    font-size: 11rem;
   }
 }
