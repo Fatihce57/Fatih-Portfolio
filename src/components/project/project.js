@@ -63,6 +63,20 @@ function Project() {
             </Card>
           </Col>
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
+            <Card border="primary">
+            <iframe className="project-images" src="https://expandingpictures.netlify.app/" frameborder="0"></iframe>
+                 <Card.Body>
+                <Card.Header>Expanding Cards</Card.Header>
+                <Card.Text style={{ height: '8rem' }}>
+                  This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to
+                  show that equal height action.
+      </Card.Text>
+                <Button variant="outline-info" href="#">Link</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="info">
               <img className="project-images" src="images/comingsoon.jpg" alt="" />
               <Card.Body>
