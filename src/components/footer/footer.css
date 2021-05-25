@@ -57,7 +57,7 @@
   text-align: center;
 }
 
-.aboutme p {
+.social_media p {
   font-size: 1rem;
   padding: 0 2% 2% 2%;
   text-align: justify;
@@ -92,18 +92,30 @@
   #contacthead {
     font-size: 1.5rem;
   }
-}
+    .aboutme, .social_media p, .sos_med,
+    .address, .phone, .email, .fatih, .copy {
+      font-size:0.7rem;
+      }
+  }
 
 @media only screen and (min-width: 576px) {
   #contacthead {
     font-size: 1.6rem;
   }
+  .aboutme, .social_media p, .sos_med,
+  .address, .phone, .email, .fatih, .copy {
+    font-size:0.8rem;
+    }
 }
 
 @media only screen and (min-width: 768px) {
   #contacthead {
     font-size: 1.8rem;
   }
+  .aboutme, .social_media p, .sos_med,
+  .address, .phone, .email, .fatih, .copy {
+    font-size:1rem;
+    }
 }
 
 @media only screen and (min-width: 992px) {
