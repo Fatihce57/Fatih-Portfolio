@@ -15,7 +15,7 @@ function Footer() {
           <Row>
             <Col xs={12} sm={11} md={12} lg={12}>
               <i className="address"><FaMapMarkerAlt /> Berlin, Germany</i> <br />
-              <i className="phone"><FaPhoneAlt /> +49 178 000 00</i><br />
+              <i className="phone"><FaPhoneAlt /> +49 000 000 00</i><br />
               <i className="email"><FaEnvelope /> fatihce57@gmail.com</i>
             </Col>
           </Row>
