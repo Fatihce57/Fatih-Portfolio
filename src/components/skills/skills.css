@@ -12,6 +12,11 @@
 
 .skills-icon {
   font-size: 150px;
+  opacity: 1;
+}
+
+.skills-icon:hover {
+  opacity: 0;
 }
 
 .html5 {
@@ -39,24 +44,36 @@
 }
 
 @media only screen and (max-width: 576px) {
+  #skillshead{
+    font-size: 1.5rem;
+  }
   .skills-icon {
     font-size: 5rem;
   }
 }
 
 @media only screen and (min-width: 576px) {
+  #skillshead{
+    font-size: 1.6rem;
+  }
   .skills-icon {
     font-size: 7rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
+  #skillshead{
+    font-size: 1.8rem;
+  }
   .skills-icon {
     font-size: 9rem;
   }
 }
 
 @media only screen and (min-width: 992px) {
+  #skillshead{
+    font-size: 2rem;
+  }
   .skills-icon {
     font-size: 11rem;
   }
