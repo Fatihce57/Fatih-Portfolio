@@ -1,7 +1,7 @@
 import './footer.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub, FaCopyright } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub, FaCopyright, FaXing } from "react-icons/fa";
 
 
 function Footer() {
@@ -29,8 +29,9 @@ function Footer() {
               <div className="container-sos-med">
                 <a href="#/"><h3 className="sos_med"><FaFacebookF /></h3></a>
                 <a href="#/"><h3 className="sos_med"><FaTwitter /></h3></a>
-                <a href="https://www.linkedin.com/feed/" target="_blank"><h3 className="sos_med"><FaLinkedinIn /></h3></a>
+                <a href="https://www.linkedin.com/in/fatih-c-8a52061a9/" target="_blank"><h3 className="sos_med"><FaLinkedinIn /></h3></a>
                 <a href="https://github.com/Fatihce57" target="_blank"><h3 className="sos_med"><FaGithub /></h3></a>
+                <a href="https://www.xing.com/profile/Fatih_Cengiz21/cv" target="_blank"><h3 className="sos_med"><FaXing /></h3></a>
               </div>
             </Col>
           </Row>
