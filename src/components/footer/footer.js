@@ -14,9 +14,9 @@ function Footer() {
         <Container className="communication">
           <Row>
             <Col xs={12} sm={11} md={12} lg={12}>
-              <i className="address"><FaMapMarkerAlt />Berlin, Germany</i> <br />
-              <i className="phone"><FaPhoneAlt />+49 1577 500 58 93</i><br />
-              <i className="email"><FaEnvelope />fatihce57@gmail.com</i>
+              <i className="address"><FaMapMarkerAlt /> Berlin, Germany</i> <br /><br />
+              {/* <i className="phone"><FaPhoneAlt /></i><br /> */}
+              <i className="email"><FaEnvelope /> fatihce57@gmail.com</i>
             </Col>
           </Row>
         </Container>
