@@ -1,7 +1,7 @@
 .project {
   color: rgb(255, 255, 255);
   background-color: rgb(7, 33, 51);
- padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 #projecthead {
@@ -22,7 +22,7 @@
   #projecthead {
     font-size: 1.5rem;
   }
-  .information{
+  .information {
     height: 4rem;
     font-size: 0.8rem;
   }
@@ -35,7 +35,7 @@
   #projecthead {
     font-size: 1.6rem;
   }
-  .information{
+  .information {
     height: 4rem;
     font-size: 1rem;
   }
@@ -48,7 +48,7 @@
   #projecthead {
     font-size: 1.8rem;
   }
-  .information{
+  .information {
     height: 5rem;
     font-size: 1rem;
   }
@@ -61,9 +61,8 @@
   #projecthead {
     font-size: 2rem;
   }
-  .information{
+  .information {
     height: 7rem;
     font-size: 1rem;
   }
 }
-
