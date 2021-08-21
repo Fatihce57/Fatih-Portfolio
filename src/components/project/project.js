@@ -74,14 +74,25 @@ function Project() {
               <Card.Body>
                 <Card.Header>Wetterlage</Card.Header>
                 <Card.Text className="information">
-                A good site where you can find out the weather forecast wherever you live in the world.
+                  A good site where you can find out the weather forecast wherever you live in the world.
                 </Card.Text>
-                <Button variant="outline-info" href="https://wetterlage.netlify.app" target="_blank">Link</Button>
+                <Button variant="outline-primary" href="https://wetterlage.netlify.app" target="_blank">Link</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
+            <Card border="info">
+              <iframe className="project-images" src="https://warningnotes.netlify.app" frameborder="0"></iframe>
+              <Card.Body>
+                <Card.Header>Notes App</Card.Header>
+                <Card.Text className="information">
+                  A nice project where you can write your important notes. You can now follow your shopping and daily work much more easily.
+                </Card.Text>
+                <Button variant="outline-danger" href="https://warningnotes.netlify.app" target="_blank">Link</Button>
               </Card.Body>
             </Card>
           </Col>
         </Row>
-
       </Container>
 
 
