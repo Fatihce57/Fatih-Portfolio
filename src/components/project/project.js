@@ -10,7 +10,7 @@ function Project() {
         <Row className="justify-content-center">
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="primary">
-              <iframe className="project-images" src="https://marsperseverance.netlify.app/" frameborder="0"></iframe>
+              <iframe className="project-images" src="https://marsperseverance.netlify.app/" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
                 <Card.Header>Perseverance</Card.Header>
                 <Card.Text className="information">
@@ -22,7 +22,7 @@ function Project() {
           </Col>
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="danger">
-              <iframe className="project-images" src="https://analoguhr.netlify.app/" frameborder="0"></iframe>
+              <iframe className="project-images" src="https://analoguhr.netlify.app/" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
                 <Card.Header>Clock</Card.Header>
                 <Card.Text className="information">
@@ -34,7 +34,7 @@ function Project() {
           </Col>
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="warning">
-              <iframe className="project-images" src="https://filmmovies.netlify.app/" frameborder="0"></iframe>
+              <iframe className="project-images" src="https://filmmovies.netlify.app/" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
                 <Card.Header>Film Movies</Card.Header>
                 <Card.Text className="information">
@@ -46,7 +46,7 @@ function Project() {
           </Col>
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="success">
-              <iframe className="project-images" src="https://googlesearchbar.netlify.app/" frameborder="0"></iframe>
+              <iframe className="project-images" src="https://googlesearchbar.netlify.app/" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
                 <Card.Header>Google Search Bar</Card.Header>
                 <Card.Text className="information">
@@ -58,19 +58,19 @@ function Project() {
           </Col>
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="primary">
-              <iframe className="project-images" src="https://expandingpictures.netlify.app/" frameborder="0"></iframe>
+              <iframe className="project-images" src="https://coronaalarm.netlify.app/" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
-                <Card.Header>Expanding Cards</Card.Header>
+                <Card.Header>Corona Alarm</Card.Header>
                 <Card.Text className="information">
-                  A javascript work that can be a source of inspiration for your projects. You can see the animated state of the pictures and add dynamism to your page.
+                We need to wear masks during the corona period. So how about finding those who don't? Let's find them and warn them.
                 </Card.Text>
-                <Button variant="outline-info" href="https://expandingpictures.netlify.app/" target="_blank">Link</Button>
+                <Button variant="outline-info" href="https://coronaalarm.netlify.app/" target="_blank">Link</Button>
               </Card.Body>
             </Card>
           </Col>
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="info">
-              <iframe className="project-images" src="https://wetterlage.netlify.app" frameborder="0"></iframe>
+              <iframe className="project-images" src="https://wetterlage.netlify.app" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
                 <Card.Header>Wetterlage</Card.Header>
                 <Card.Text className="information">
@@ -82,7 +82,7 @@ function Project() {
           </Col>
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="info">
-              <iframe className="project-images" src="https://warningnotes.netlify.app" frameborder="0"></iframe>
+              <iframe className="project-images" src="https://warningnotes.netlify.app" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
                 <Card.Header>Notes App</Card.Header>
                 <Card.Text className="information">
