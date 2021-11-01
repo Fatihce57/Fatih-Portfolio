@@ -8,7 +8,7 @@ function Project() {
 
       <Container className="text-dark mt-5">
         <Row className="justify-content-center">
-          <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
+          {/* <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="primary">
               <iframe className="project-images" src="https://marsperseverance.netlify.app/" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
@@ -19,7 +19,7 @@ function Project() {
                 <Button variant="outline-primary" href="https://marsperseverance.netlify.app/" target="_blank">Link</Button>
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="danger">
               <iframe className="project-images" src="https://analoguhr.netlify.app/" frameBorder="0" title={"project"}></iframe>
@@ -44,7 +44,7 @@ function Project() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
+          {/* <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="success">
               <iframe className="project-images" src="https://googlesearchbar.netlify.app/" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
@@ -55,7 +55,7 @@ function Project() {
                 <Button variant="outline-success" href="https://googlesearchbar.netlify.app/" target="_blank">Link</Button>
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="primary">
               <iframe className="project-images" src="https://coronaalarm.netlify.app/" frameBorder="0" title={"project"}></iframe>
