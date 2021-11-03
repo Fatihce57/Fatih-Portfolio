@@ -1,31 +1,28 @@
 .container_header {
-  height: 81vh;
-
-}
-.head-res{
+  height: 80vh;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-
 .exclamation {
   color: red;
 }
 .header_fatih {
   color: rgb(23, 163, 228);
 }
-infinite
 .smileicon {
   color: yellow;
 }
 
-div.speed {
+.speed {
   padding: 2%;
-  margin: 3%;
+  margin: 1%;
   border-radius: 4px;
   position: relative;
   text-align: center;
   animation: move 10s infinite;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 div#linear {
   animation-timing-function: linear;
@@ -37,7 +34,6 @@ div#linear {
 div#ease {
   animation-timing-function: ease;
   color: rgb(223, 71, 91);
-  /* text-shadow: 3px 0px 4px #f8f3f3, 1px 0px 7px #f3eeee; */
   font-size: 4rem;
   width: 20vw;
 }
@@ -57,29 +53,29 @@ div#easeIn {
   }
   20% {
     background-color: rgb(7, 33, 51);
-    left: 15%;
+    left: 14%;
     top: 0px;
   }
   40% {
     background-color: rgb(206, 184, 144);
-    left: 30%;
+    left: 28%;
     top: 0px;
   }
   60% {
     background-color: rgb(120, 216, 117);
-    left: 45%;
+    left: 42%;
     top: 0px;
   }
   80% {
     background-color: rgb(7, 33, 51);
-    left: 60%;
+    left: 56%;
     top: 0px;
   }
-  100% {
-    background-color: rgb(7, 33, 51);
-    left: 80%;
-    top: 0px;
-  }
+   100% {
+     background-color: rgb(7, 33, 51);
+     left: 60%;
+     top: 0px;
+   }
 }
 
 @media only screen and (max-width: 576px) {

@@ -10,10 +10,8 @@ import {
 
 function Footer() {
   return (
-    <div className="footer">
-    
-    
-          <div className="container-sos-med">
+    <div className="footer">  
+              <div className="container-sos-med">
             <a href="#/">
               <h3 className="sos_med">
                 <FaFacebookF />
