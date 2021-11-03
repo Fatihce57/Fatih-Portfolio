@@ -1,4 +1,4 @@
-import './project.css';
+import './Projects.scss';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 
 function Project() {
@@ -36,7 +36,7 @@ function Project() {
             <Card border="warning">
               <iframe className="project-images" src="https://filmmovies.netlify.app/" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
-                <Card.Header>Film Movies</Card.Header>
+              Projects    <Card.Header>Film Movies</Card.Header>
                 <Card.Text className="information">
                   Would you like to check out a movie list made with React? It is not complete yet, but it is worth seeing even in its current state.
                 </Card.Text>

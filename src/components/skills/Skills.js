@@ -1,4 +1,4 @@
-import './skills.css';
+import './Skills.scss';
 import { FaHtml5, FaCss3Alt, FaSass, FaNodeJs } from "react-icons/fa";
 import { SiJavascript, SiReact } from "react-icons/si";
 import { Container, Row, Col } from 'react-bootstrap';

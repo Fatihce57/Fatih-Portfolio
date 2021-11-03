@@ -3,15 +3,7 @@
   background-color: rgb(7, 33, 51);
 }
 
-.sos-med {
-  position: fixed;
-  top: 0;
-}
-
 @media only screen and (max-width: 576px) {
-  .sos-med {
-    display: none;
-  }
   .text-danger {
     font-size: 0.7em;
   }
@@ -21,9 +13,6 @@
 }
 
 @media only screen and (min-width: 576px) {
-  .sos-med {
-    display: none;
-  }
   .text-danger {
     font-size: 0.8em;
   }
@@ -33,9 +22,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .sos-med {
-    display: none;
-  }
   .text-danger {
     font-size: 0.9em;
   }
@@ -45,9 +31,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .sos-med {
-    display: inline-flex;
-  }
   .text-danger {
     font-size: 1em;
   }
