@@ -1,12 +1,12 @@
 .about {
   color: white;
+  height: 80vh;
+  margin: 0 auto;
 }
-
 #abouthead {
   text-align: center;
   color: rgb(253, 5, 129);
   font-size: 2rem;
-  padding-top: 4%;
 }
 
 .about-text {
@@ -82,7 +82,7 @@
 
 @media only screen and (min-width: 576px) {
   .about-text {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   #abouthead {
     font-size: 1.6rem;

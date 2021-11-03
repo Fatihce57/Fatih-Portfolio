@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="container_header">
       
-        <Col xs={10} sm={10} md={10} lg={10}>
+        <Col xs={10} sm={10} md={10} xl={10}>
           <div className="speed" id="linear">
             <h1 id="hello">
               Hello <span className="exclamation">!</span>

@@ -1,46 +1,48 @@
+@import '../../scss/layout';
+
 .skills {
-  background-color: rgb(7, 33, 51);
-  padding-bottom: 14%;
-}
+  height: 80vh;
+  margin: 0 auto;
+  #skillshead {
+    text-align: center;
+    color: rgb(253, 5, 129);
+    font-size: 2rem;
+  }
+  .skills-container {
+    margin-top: 5%;
+    .skills-icon {
+      display: flex;
+      opacity: 1;
+    }
+    .skills-icon:hover {
+      color: $bgColor;
+    }
 
-#skillshead {
-  text-align: center;
-  color: rgb(253, 5, 129);
-  font-size: 2rem;
-  padding: 4% 0;
-}
-
-.skills-icon {
-  font-size: 150px;
-  opacity: 1;
-}
-
-.skills-icon:hover {
-  opacity: 0;
-}
-
-.html5 {
-  color: orangered;
-}
-
-.css3 {
-  color: blue;
-}
-
-.js {
-  color: #ffcc33;
-}
-
-.react {
-  color: aqua;
-}
-
-.sass {
-  color: #d20df5;
-}
-
-.node {
-  color: green;
+    .html5 {
+      color: orangered;
+    }
+    .css3 {
+      color: blue;
+    }
+    .js {
+      color: #ffcc33;
+    }
+    .react {
+      color: aqua;
+    }
+    .sass {
+      color: #d20df5;
+    }
+    .node {
+      color: green;
+    }
+    .mongodb {
+      color: green;
+    }
+    .figma {
+      color: rgb(255, 77, 255);
+    }
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -75,6 +77,6 @@
     font-size: 2rem;
   }
   .skills-icon {
-    font-size: 11rem;
+    font-size: 10rem;
   }
 }
