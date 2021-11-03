@@ -1,5 +1,8 @@
 .footer {
-  background-color: rgb(7, 33, 51);   
+  height: 10vh;
+  margin: 0;
+  padding: 0;
+  opacity: 1;   
   .container-sos-med {
     display: flex;
     justify-content: center;
@@ -18,7 +21,7 @@
     color: white;
     display: flex;
     justify-content: center;
-    padding:1% 0;
+    padding: 0;
     .copy {
       margin: 0 1%;
     }

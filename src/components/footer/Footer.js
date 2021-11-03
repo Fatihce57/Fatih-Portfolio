@@ -11,8 +11,8 @@ import {
 function Footer() {
   return (
     <div className="footer">
-      <Row>
-        <Col xs={12} md={12} xl={12} className="footer-col">
+    
+    
           <div className="container-sos-med">
             <a href="#/">
               <h3 className="sos_med">
@@ -42,8 +42,8 @@ function Footer() {
             </span>{' '}
             2021
           </h4>
-        </Col>
-      </Row>
+     
+  
     </div>
   )
 }

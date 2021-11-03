@@ -5,8 +5,6 @@ function About() {
   return (
     <div className="about">
       <h2 id="abouthead">About me</h2>
-
-
       <Container className="mt-5">
         <Row className="justify-content-center">
           <Col xs={6} sm={7} md={5} lg={4}>
@@ -21,7 +19,6 @@ function About() {
               I studied economics in Turkey. I have work experience in different fields. I have been living in Germany since 2018. I'm currently taking a full-stack web developer course in Berlin at DCI. I enjoy building interactive, effect-heavy JavaScript applications with an eye on animated content. I love doing projects with React.</p>
           </Col>
         </Row>
-
       </Container>
 
     </div>

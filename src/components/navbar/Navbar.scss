@@ -1,37 +1,50 @@
+@import '../../scss/layout';
+
+.container-navbar{
+  width: 100vw;
+  height: 10vh;
 .fixed-top {
-  opacity: 0.8;
-  background-color: rgb(7, 33, 51);
+  opacity: 1;
+
+  .text-danger{
+    text-decoration: none;
+    padding: 1rem;
+  }
+}
 }
 
-@media only screen and (max-width: 576px) {
-  .text-danger {
-    font-size: 0.7em;
-  }
-  .container-navbar {
-    padding-top: 5%;
-  }
-}
+// @media only screen and (max-width: 576px) {
+//   .text-danger {
+//     font-size: 0.7em;
+//   }
+//   .container-navbar {
+//     padding-top: 5%;
+//   }
+// }
 
-@media only screen and (min-width: 576px) {
-  .text-danger {
-    font-size: 0.8em;
-  }
-  .container-navbar {
-    padding-top: 5%;
-  }
-}
+// @media only screen and (min-width: 576px) {
+//   .text-danger {
+//     font-size: 0.8em;
+//   }
+//   .container-navbar {
+//     padding-top: 5%;
+//   }
+// }
 
-@media only screen and (min-width: 768px) {
-  .text-danger {
-    font-size: 0.9em;
-  }
-  .container-navbar {
-    padding-top: 5%;
-  }
-}
+// @media only screen and (min-width: 768px) {
+//   .text-danger {
+//     font-size: 0.9em;
+//   }
+//   .container-navbar {
+//     padding-top: 5%;
+//   }
+// }
 
-@media only screen and (min-width: 992px) {
-  .text-danger {
-    font-size: 1em;
-  }
-}
+// @media only screen and (min-width: 992px) {
+//   .text-danger {
+//     font-size: 1em;
+//   }
+//   .container-navbar {
+//     padding-top: 5%;
+//   }
+// }
