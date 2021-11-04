@@ -1,6 +1,6 @@
 import './Header.scss'
 import { BiWinkSmile } from 'react-icons/bi'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Col } from 'react-bootstrap'
 import { IoChatbubbleEllipses } from 'react-icons/io5'
 
 function Header() {

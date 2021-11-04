@@ -1,5 +1,4 @@
 import './Footer.scss'
-import { Row, Col } from 'react-bootstrap'
 import {
   FaFacebookF,
   FaTwitter,

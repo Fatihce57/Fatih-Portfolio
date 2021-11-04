@@ -1,6 +1,6 @@
 import "./Navbar.scss";
 import { Link } from 'react-router-dom'
-import { Nav, Navbar, Row, Col } from 'react-bootstrap';
+import { Nav, Navbar, Col } from 'react-bootstrap';
 
 function Navigation() {
   return (
