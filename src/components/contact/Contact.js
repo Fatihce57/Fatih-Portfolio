@@ -1,43 +1,84 @@
 import React from 'react'
 import './Contact.scss'
-import { Container, Row, Col } from 'react-bootstrap';
-import { FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub, FaCopyright } from "react-icons/fa";
-
+import { Container, Row, Col } from 'react-bootstrap'
+import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa'
 
 function Contact() {
-    return (
-        <div className="footer">
-        <h2 id="contacthead">Contact</h2>
-  
-        <Container className="container_footer">
-          <Container className="communication">
-            <Row>
-              <Col xs={12} sm={11} md={12} lg={12}>
-                <i className="address"><FaMapMarkerAlt /> Berlin, Germany</i> <br /><br />
-                <i className="email"><FaEnvelope /> fatihce57@gmail.com</i>
-              </Col>
-            </Row>
-          </Container>
-  
-          <Container className="social_media">
-            <Row>
-              <Col xs={12} sm={11} md={12} lg={12} >
-                <h3 className="aboutme">Informations </h3>
-                <p>I'm available for freelance work. Drop me a line if you fancy a chat. You can always contact me via my social media accounts or mail. I will give you feedback within 1 day.</p>
-                <div className="container-sos-med">
-                  <a href="#/"><h3 className="sos_med"><FaFacebookF /></h3></a>
-                  <a href="#/"><h3 className="sos_med"><FaTwitter /></h3></a>
-                  <a href="https://www.linkedin.com/in/fatih-c-8a52061a9/"><h3 className="sos_med"><FaLinkedinIn /></h3></a>
-                  <a href="https://github.com/Fatihce57"><h3 className="sos_med"><FaGithub /></h3></a>
+  return (
+    <div className="contact">
+      <h2 id="contacthead">Contact</h2>
+      <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
+              </div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>CONTACT</span>
+                  <span>ME</span>
                 </div>
-              </Col>
-            </Row>
-          </Container>
-        </Container>
-  
+              </div>
+              <div class="screen-body-item">
+                <div class="app-form">
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="NAME" />
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="EMAIL" />
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="CONTACT NO" />
+                  </div>
+                  <div class="app-form-group message">
+                    <input class="app-form-control" placeholder="MESSAGE" />
+                  </div>
+                  <div class="app-form-group buttons">
+                    <button class="app-form-button">CANCEL</button>
+                    <button class="app-form-button">SEND</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    )
+
+      <Container>      
+          <Row className="communication">
+            <Col xs={6} >
+              <i className="address">
+                <FaMapMarkerAlt /> Berlin, Germany
+              </i>{' '}
+              <br />
+              <br />
+              <i className="email">
+                <FaEnvelope /> fatihce57@gmail.com
+              </i>
+            </Col>  
+            <Col xs={6} className="social_media">
+              <h3 className="aboutme">Informations </h3>
+              <p>
+                I'm available for freelance work. Drop me a line if you fancy a
+                chat. You can always contact me via my social media accounts or
+                mail. I will give you feedback within 1 day.
+              </p>
+            </Col>
+          </Row>
+       
+      </Container>
+    </div>
+  )
 }
 
 export default Contact

@@ -8,7 +8,6 @@ import Skills from './components/skills/Skills'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import { Row, Col } from 'react-bootstrap'
 
 function App() {
   return (
@@ -128,18 +127,14 @@ function App() {
         }}
       />
    
-        <Navbar />
-  
+        <Navbar />  
         <Switch>
           <Route exact path="/" component={Header} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/contact" component={Contact} />
-        </Switch>
-
-
-      
+        </Switch>      
         <Footer />
    
     </div>
