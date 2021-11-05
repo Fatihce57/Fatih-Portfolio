@@ -59,7 +59,7 @@ function Contact() {
           <Col xs={6} >
             <i className="address">
               <FaMapMarkerAlt /> Berlin, Germany
-            </i>{' '}
+            </i>
             <br />
             <br />
             <i className="email">

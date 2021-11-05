@@ -1,3 +1,5 @@
+@import '../../scss/layout';
+
 .footer {
   height: 10vh;
   margin: 0;
@@ -10,15 +12,15 @@
       margin: 0 2%;    
     .sos_med {
       font-size: 1.2rem;
-      color: rgb(165, 115, 23);
+      color: $secondColor;
     }
     .sos_med:hover {
-      color: rgb(253, 5, 129);
+      color: $firstColor;
     }    
   }}
   .fatih {
     font-size: 0.8rem;
-    color: rgb(165, 115, 23);
+    color: $secondColor;
     display: flex;
     justify-content: center;
     padding-top: 1%;

@@ -1,65 +1,163 @@
+@import '../../scss/layout';
+
 .about {
-  color: white;
+  color: $secondLetterColor;
   height: 80vh;
   margin: 0 auto;
-}
-#abouthead {
-  text-align: center;
-  color: rgb(253, 5, 129);
-  font-size: 2rem;
-}
-
-.about-text {
-  margin: 5% 3%;
-  text-align: justify;
-}
-
-.about-fatih {
-  margin: 10% 0;
-  animation: fatih ease-in-out 0.5s infinite alternate;
-  transform-origin: center -4%;
-}
-
-.about-fatih:hover {
-  animation-play-state: paused;
-}
-
-.about-fatih Img {
-  border: 5px solid #f80a0a;
-  width: 100%;
-}
-
-.about-fatih figcaption {
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.about-fatih:after {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border: 1.5px solid #ffffff;
-  top: -10px;
-  left: 50%;
-  z-index: 0;
-  border-bottom: none;
-  border-right: none;
-  transform: rotate(45deg);
-}
-
-.about-fatih:before {
-  content: '';
-  position: absolute;
-  top: -23px;
-  left: 50%;
-  display: block;
-  height: 44px;
-  width: 47px;
-  background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-  z-index: 16;
+  #abouthead {
+    text-align: center;
+    color: $thirdLetterColor;
+    font-size: 2rem;
+  }
+  .about-fatih {
+    margin: 10% 0;
+    animation: fatih ease-in-out 0.5s infinite alternate;
+    transform-origin: center -4%;
+  }
+  .about-fatih Img {
+    border: 5px solid $secondColor;
+    width: 100%;
+  }
+  .about-fatih:hover {
+    animation-play-state: paused;
+  }
+  .about-fatih figcaption {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .about-fatih:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid $borderColor;
+    top: -10px;
+    left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+  }
+  .about-fatih:before {
+    content: '';
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    display: block;@import '../../scss/layout';
+    .about {
+      color: $secondLetterColor;
+      height: 80vh;
+      margin: 0 auto;
+      #abouthead {
+        text-align: center;
+        color: $thirdLetterColor;
+        font-size: 2rem;
+      }
+      .about-fatih {
+        margin: 10% 0;
+        animation: fatih ease-in-out 0.5s infinite alternate;
+        transform-origin: center -4%;
+      }
+      .about-fatih Img {
+        border: 5px solid $secondColor;
+        width: 100%;
+      }
+      .about-fatih:hover {
+        animation-play-state: paused;
+      }
+      .about-fatih figcaption {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      .about-fatih:after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border: 1.5px solid $borderColor;
+        top: -10px;
+        left: 50%;
+        z-index: 0;
+        border-bottom: none;
+        border-right: none;
+        transform: rotate(45deg);
+      }
+      .about-fatih:before {
+        content: '';
+        position: absolute;
+        top: -23px;
+        left: 50%;
+        display: block;
+        height: 44px;
+        width: 47px;
+        background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        z-index: 16;
+      }
+      .about-text {
+        margin: 5% 3%;
+        text-align: justify;
+      }
+    }
+    
+    @keyframes fatih {
+      0% {
+        transform: rotate(3deg);
+      }
+      100% {
+        transform: rotate(-3deg);
+      }
+    }
+    
+    @media only screen and (max-width: 576px) {
+      .about-text {
+        font-size: 1.1rem;
+      }
+      #abouthead {
+        font-size: 1.5rem;
+      }
+    }
+    
+    @media only screen and (min-width: 576px) {
+      .about-text {
+        font-size: 1.2rem;
+      }
+      #abouthead {
+        font-size: 1.6rem;
+      }
+    }
+    
+    @media only screen and (min-width: 768px) {
+      .about-text {
+        font-size: 1.5rem;
+      }
+    
+      #abouthead {
+        font-size: 1.8rem;
+      }
+    }
+    
+    @media only screen and (min-width: 992px) {
+      .about-text {
+        font-size: 2.2rem;
+      }
+      #abouthead {
+        font-size: 2rem;
+      }
+    }
+    
+    height: 44px;
+    width: 47px;
+    background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    z-index: 16;
+  }
+  .about-text {
+    margin: 5% 3%;
+    text-align: justify;
+  }
 }
 
 @keyframes fatih {
@@ -93,7 +191,6 @@
   .about-text {
     font-size: 1.5rem;
   }
-
   #abouthead {
     font-size: 1.8rem;
   }

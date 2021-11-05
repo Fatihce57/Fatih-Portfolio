@@ -5,8 +5,7 @@ import { IoChatbubbleEllipses } from 'react-icons/io5'
 
 function Header() {
   return (
-    <div className="container_header">
-      
+    <div className="container_header">      
         <Col xs={10} sm={10} md={10} xl={10}>
           <div className="speed" id="linear">
             <h1 id="hello">
@@ -29,8 +28,7 @@ function Header() {
               </span>
             </h2>
           </div>
-        </Col>
-   
+        </Col>   
     </div>
   )
 }

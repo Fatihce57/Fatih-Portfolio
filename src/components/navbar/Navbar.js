@@ -4,8 +4,7 @@ import { Nav, Navbar, Col } from 'react-bootstrap';
 
 function Navigation() {
   return (
-    <nav id="top" className="container-navbar">
-      
+    <nav id="top" className="container-navbar">      
         <Navbar className="fixed-top fw-bold fs-4" collapseOnSelect expand="md" variant="dark">
           <Link to="/"className="fw-bold fs-4 text-danger" >Home</Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -20,7 +19,6 @@ function Navigation() {
             </Col>
          </Navbar.Collapse>
         </Navbar>
-
     </nav>
   );
 }
