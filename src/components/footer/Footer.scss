@@ -1,0 +1,31 @@
+@import '../../scss/layout';
+
+.footer {
+  height: 10vh;
+  margin: 0;
+  padding: 0;
+  opacity: 1;   
+  .container-sos-med {
+    display: flex;
+    justify-content: center;
+    a {
+      margin: 0 2%;    
+    .sos_med {
+      font-size: 1.2rem;
+      color: $secondColor;
+    }
+    .sos_med:hover {
+      color: $firstColor;
+    }    
+  }}
+  .fatih {
+    font-size: 0.8rem;
+    color: $secondColor;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    .copy {
+      margin: 0 1%;
+    }
+    } 
+}

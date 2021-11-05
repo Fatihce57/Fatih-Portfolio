@@ -1,0 +1,82 @@
+@import '../../scss/layout';
+
+.skills {
+  height: 80vh;
+  margin: 0 auto;
+  #skillshead {
+    text-align: center;
+    color: $thirdLetterColor;
+    font-size: 2rem;
+  }
+  .skills-container {
+    margin-top: 5%;
+    .skills-icon {
+      display: flex;
+      opacity: 1;
+    }
+    .skills-icon:hover {
+      color: $bgColor;
+    }
+
+    .html5 {
+      color: orangered;
+    }
+    .css3 {
+      color: blue;
+    }
+    .js {
+      color: #ffcc33;
+    }
+    .react {
+      color: aqua;
+    }
+    .sass {
+      color: #d20df5;
+    }
+    .node {
+      color: green;
+    }
+    .mongodb {
+      color: green;
+    }
+    .figma {
+      color: rgb(255, 77, 255);
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #skillshead {
+    font-size: 1.5rem;
+  }
+  .skills-icon {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  #skillshead {
+    font-size: 1.6rem;
+  }
+  .skills-icon {
+    font-size: 7rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #skillshead {
+    font-size: 1.8rem;
+  }
+  .skills-icon {
+    font-size: 9rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #skillshead {
+    font-size: 2rem;
+  }
+  .skills-icon {
+    font-size: 10rem;
+  }
+}
