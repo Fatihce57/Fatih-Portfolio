@@ -54,28 +54,26 @@ function Contact() {
         </div>
       </div>
 
-      <Container>      
-          <Row className="communication">
-            <Col xs={6} >
-              <i className="address">
-                <FaMapMarkerAlt /> Berlin, Germany
-              </i>{' '}
-              <br />
-              <br />
-              <i className="email">
-                <FaEnvelope /> fatihce57@gmail.com
-              </i>
-            </Col>  
-            <Col xs={6} className="social_media">
-              <h3 className="aboutme">Informations </h3>
-              <p>
-                I'm available for freelance work. Drop me a line if you fancy a
-                chat. You can always contact me via my social media accounts or
-                mail. I will give you feedback within 1 day.
-              </p>
-            </Col>
-          </Row>
-       
+      <Container>
+        <Row className="communication">
+          <Col xs={6} >
+            <i className="address">
+              <FaMapMarkerAlt /> Berlin, Germany
+            </i>{' '}
+            <br />
+            <br />
+            <i className="email">
+              <FaEnvelope /> fatihce57@gmail.com
+            </i>
+          </Col>
+          <Col xs={6} className="social_media">
+            <h3 className="aboutme">Informations </h3>
+            <p>
+              You can always contact me via my social media accounts or mail. I will give you feedback within 1 day.
+            </p>
+          </Col>
+        </Row>
+
       </Container>
     </div>
   )

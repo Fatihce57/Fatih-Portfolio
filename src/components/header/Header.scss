@@ -29,51 +29,45 @@ div#linear {
   color: white;
   text-shadow: 3px 0px 4px #c72b2b, 1px 0px 7px #ff0000;
   font-size: 5rem;
-  width: 20vw;
+  width: 10vw;
 }
 div#ease {
   animation-timing-function: ease;
   color: rgb(223, 71, 91);
   font-size: 4rem;
-  width: 20vw;
+  width: 10vw;
 }
 div#easeIn {
   animation-timing-function: ease-in;
   color: white;
   text-shadow: 3px 0px 4px #c72b2b, 1px 0px 7px #ff0000;
   font-size: 3rem;
-  width: 30vw;
+  width: 15vw;
 }
 
 @keyframes move {
-  0% {
-    background-color: rgb(7, 33, 51);
-    left: 0px;
+  0% { 
+    left: -50%;
     top: 0px;
   }
-  20% {
-    background-color: rgb(7, 33, 51);
+  20% {   
     left: 14%;
     top: 0px;
   }
-  40% {
-    background-color: rgb(206, 184, 144);
+  40% {   
     left: 28%;
     top: 0px;
   }
   60% {
-    background-color: rgb(120, 216, 117);
     left: 42%;
     top: 0px;
   }
   80% {
-    background-color: rgb(7, 33, 51);
     left: 56%;
     top: 0px;
   }
-   100% {
-     background-color: rgb(7, 33, 51);
-     left: 60%;
+   100% {    
+     left: 87%;
      top: 0px;
    }
 }

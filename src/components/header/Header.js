@@ -23,7 +23,7 @@ function Header() {
           </div>
           <div className="speed" id="easeIn">
             <h2 className="stack">
-              I'm a full-stack web developer <br /> candidate
+              I'm a React Web Developer <br />
               <span className="smileicon">
                 <BiWinkSmile />
               </span>

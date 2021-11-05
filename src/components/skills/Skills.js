@@ -41,17 +41,17 @@ function Skills() {
           <Col xs={{ span: 3, offset: 1 }}>
             <i className="skills-icon sass">
               <FaSass />
-            </i>{' '}
+            </i>
           </Col>
           <Col xs={{ span: 3, offset: 1 }}>
             <i className="skills-icon figma">
               <SiFigma />
-            </i>{' '}
+            </i>
           </Col>
           <Col xs={{ span: 3, offset: 1 }}>
             <i className="skills-icon node">
               <FaNodeJs />
-            </i>{' '}
+            </i>
           </Col>
         </Row>
       </div>
