@@ -7,7 +7,6 @@
       #abouthead {
         text-align: center;
         color: $thirdLetterColor;
-        font-size: 2rem;
       }
       .about-fatih {
         margin: 10% 0;
@@ -56,7 +55,6 @@
     .slider{    
       animation: slideColor 10s forwards infinite;
       margin:1%;
-      font-size:2rem;
       .caption{
         line-height: 125px;
         color: $secondLetterColor;
@@ -169,22 +167,25 @@
     
     @media only screen and (max-width: 576px) {
       .about-text{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
       }
       #abouthead {
         font-size: 1.5rem;
       }
       .slider{
-        font-size: 150%;
+        font-size: 1.2rem;
       }
     }
     
     @media only screen and (min-width: 576px) {
       .about-text {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
       }
       #abouthead {
         font-size: 1.6rem;
+      }
+      .slider{
+        font-size: 1.4rem;
       }
     }
     
@@ -196,13 +197,19 @@
       #abouthead {
         font-size: 1.8rem;
       }
+      .slider{
+        font-size: 1.5rem;
+      }
     }
     
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 1200px) {
       .about-text {
         font-size: 2.2rem;
       }
       #abouthead {
+        font-size: 2rem;
+      }
+      .slider{
         font-size: 2rem;
       }
     }

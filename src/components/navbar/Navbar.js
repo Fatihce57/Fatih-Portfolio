@@ -14,7 +14,7 @@ function Navigation() {
         <Link to="/" className="logo fw-bold fs-4 text-danger">
           <img className="fatih-logo" src="./images/fatihphoto.jpg" alt="fatih logo" />
         </Link>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle className="navbar-toggle" aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Col>
             <Nav className="mr-auto">
