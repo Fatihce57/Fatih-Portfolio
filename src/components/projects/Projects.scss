@@ -1,68 +1,68 @@
 @import '../../scss/layout';
 
 .project {
-color: rgb(255, 255, 255);
- min-height: 100%;
+  color: $secondLetterColor;
+  height: 80vh;
+  margin: 0 auto;
 }
 
 #projecthead {
   text-align: center;
-  color: $firstColor;
-  font-size: 2rem;
+  color: $thirdLetterColor;
 }
 
-.project-images {
-  height: 30em;
-}
+// .project-images {
+//   height: 20em;
+// }
 
-@media only screen and (max-width: 576px) {
-  .project-images {
-    height: 300px;
-  }
-  #projecthead {
-    font-size: 1.5rem;
-  }
-  .information {
-    height: 4rem;
-    font-size: 0.8rem;
-  }
-}
+// @media only screen and (max-width: 576px) {
+//   .project-images {
+//     height: 300px;
+//   }
+//   #projecthead {
+//     font-size: 1.5rem;
+//   }
+//   .information {
+//     height: 4rem;
+//     font-size: 0.8rem;
+//   }
+// }
 
-@media only screen and (min-width: 576px) {
-  .project-images {
-    height: 450px;
-  }
-  #projecthead {
-    font-size: 1.6rem;
-  }
-  .information {
-    height: 4rem;
-    font-size: 1rem;
-  }
-}
+// @media only screen and (min-width: 576px) {
+//   .project-images {
+//     height: 450px;
+//   }
+//   #projecthead {
+//     font-size: 1.6rem;
+//   }
+//   .information {
+//     height: 4rem;
+//     font-size: 1rem;
+//   }
+// }
 
-@media only screen and (min-width: 768px) {
-  .project-images {
-    height: 400px;
-  }
-  #projecthead {
-    font-size: 1.8rem;
-  }
-  .information {
-    height: 5rem;
-    font-size: 1rem;
-  }
-}
+// @media only screen and (min-width: 768px) {
+//   .project-images {
+//     height: 400px;
+//   }
+//   #projecthead {
+//     font-size: 1.8rem;
+//   }
+//   .information {
+//     height: 5rem;
+//     font-size: 1rem;
+//   }
+// }
 
-@media only screen and (min-width: 992px) {
-  .project-images {
-    height: 500px;
-  }
-  #projecthead {
-    font-size: 2rem;
-  }
-  .information {
-    height: 7rem;
-    font-size: 1rem;
-  }
-}
+// @media only screen and (min-width: 992px) {
+//   .project-images {
+//     height: 500px;
+//   }
+//   #projecthead {
+//     font-size: 2rem;
+//   }
+//   .information {
+//     height: 7rem;
+//     font-size: 1rem;
+//   }
+// }

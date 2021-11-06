@@ -5,10 +5,8 @@ function Project() {
   return (
     <div className="project">
       <h2 id="projecthead">Project</h2>
-
-      <Container className="text-dark mt-5">
-        <Row className="justify-content-center">
-          {/* <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
+        {/* <Row className="justify-content-center">
+          <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="primary">
               <iframe className="project-images" src="https://marsperseverance.netlify.app/" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
@@ -19,7 +17,7 @@ function Project() {
                 <Button variant="outline-primary" href="https://marsperseverance.netlify.app/" target="_blank">Link</Button>
               </Card.Body>
             </Card>
-          </Col> */}
+          </Col>
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="danger">
               <iframe className="project-images" src="https://analoguhr.netlify.app/" frameBorder="0" title={"project"}></iframe>
@@ -32,7 +30,7 @@ function Project() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
+          <Col className="pb-5" xs={10} sm={11} md={6assets/} lg={4}>
             <Card border="warning">
               <iframe className="project-images" src="https://filmmovies.netlify.app/" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
@@ -44,7 +42,7 @@ function Project() {
               </Card.Body>
             </Card>
           </Col>
-          {/* <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
+           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="success">
               <iframe className="project-images" src="https://googlesearchbar.netlify.app/" frameBorder="0" title={"project"}></iframe>
               <Card.Body>
@@ -55,7 +53,7 @@ function Project() {
                 <Button variant="outline-success" href="https://googlesearchbar.netlify.app/" target="_blank">Link</Button>
               </Card.Body>
             </Card>
-          </Col> */}
+          </Col>
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="primary">
               <iframe className="project-images" src="https://coronaalarm.netlify.app/" frameBorder="0" title={"project"}></iframe>
@@ -92,11 +90,29 @@ function Project() {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-      </Container>
+        </Row> */}
 
+<Card style={{ width: '20rem',color:'black' }}>
+  <Card.Img variant="top" src="./images/corona_finder.png" />
+  <Card.Body>
+    <Card.Title>Corona Finder</Card.Title>
+    <Card.Text>
+    We need to wear masks during the corona period. So how about finding those who don't? Let's find them and warn them.
+    </Card.Text>
+  </Card.Body>
+ <Card.Body>
+    <Card.Title>Technologies</Card.Title>
+    <Card.Text>
+      HTML/CSS, JavaScript, Canvas, Face Api, Netlify
+    </Card.Text>
+  </Card.Body>
+  <Card.Body>
+  <Button variant="danger"><Card.Link href="#">GitHub</Card.Link></Button> 
+  <Button variant="danger"><Card.Link href="#">Live</Card.Link></Button> 
+  </Card.Body>
+</Card>
   
-
+<img src="" alt="" />
 
     </div>
   );
