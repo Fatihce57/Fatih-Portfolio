@@ -10,7 +10,6 @@ function About() {
           <Col xs={6} sm={6} md={5} xl={3}>
             <Figure className="about-fatih">
               <Image src="./images/fatihphoto.jpg" roundedCircle />
-              <figcaption>Fatih</figcaption>
             </Figure>
           </Col>
           <Col xs={12} sm={12} md={7} xl={7}>
@@ -22,6 +21,17 @@ function About() {
               animated content. I love doing projects with React.
             </p>
           </Col>
+        </Row>
+     
+          <Row className="slider mt-5">
+            <div className="caption">
+              I am a &nbsp;
+              <div className="text-box">
+                <div>father</div>
+                <div>React web developer</div>
+                <div>Mern Stack developer</div>
+              </div>
+            </div>     
         </Row>
       </Container>
     </div>

@@ -1,15 +1,14 @@
 @import '../../scss/layout';
 
 .project {
-  color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
  min-height: 100%;
 }
 
 #projecthead {
   text-align: center;
-  color: rgb(253, 5, 129);
+  color: $firstColor;
   font-size: 2rem;
-  padding-top: 4%;
 }
 
 .project-images {

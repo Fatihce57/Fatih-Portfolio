@@ -1,49 +1,5 @@
 @import '../../scss/layout';
 
-.about {
-  color: $secondLetterColor;
-  height: 80vh;
-  margin: 0 auto;
-  #abouthead {
-    text-align: center;
-    color: $thirdLetterColor;
-    font-size: 2rem;
-  }
-  .about-fatih {
-    margin: 10% 0;
-    animation: fatih ease-in-out 0.5s infinite alternate;
-    transform-origin: center -4%;
-  }
-  .about-fatih Img {
-    border: 5px solid $secondColor;
-    width: 100%;
-  }
-  .about-fatih:hover {
-    animation-play-state: paused;
-  }
-  .about-fatih figcaption {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .about-fatih:after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border: 1.5px solid $borderColor;
-    top: -10px;
-    left: 50%;
-    z-index: 0;
-    border-bottom: none;
-    border-right: none;
-    transform: rotate(45deg);
-  }
-  .about-fatih:before {
-    content: '';
-    position: absolute;
-    top: -23px;
-    left: 50%;
-    display: block;@import '../../scss/layout';
     .about {
       color: $secondLetterColor;
       height: 80vh;
@@ -64,10 +20,6 @@
       }
       .about-fatih:hover {
         animation-play-state: paused;
-      }
-      .about-fatih figcaption {
-        font-size: 1.5rem;
-        text-align: center;
       }
       .about-fatih:after {
         content: '';
@@ -100,7 +52,112 @@
         text-align: justify;
       }
     }
+
+    .slider{    
+      animation: slideColor 10s forwards infinite;
+      margin:1%;
+      font-size:2rem;
+      .caption{
+        line-height: 125px;
+        color: $secondLetterColor;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        .text-box{
+          display: inline-block;
+          position: relative;
+        }
+        .text-box div{
+          display: inline-block;
+          position: absolute;
+          transform: rotateX(-90deg);
+          opacity: 0;
+          animation-timing-function: ease;
+          width:60vw;
+        }
+        .text-box div:nth-child(1){
+          animation: rollDown 10s forwards infinite;
+          color: rgb(43, 230, 68);
+        }
+        
+        .text-box div:nth-child(2){
+          animation: rollDown2 10s forwards infinite;
+          color: rgb(45, 193, 219);
+        }
+        
+        .text-box div:nth-child(3){
+          animation: rollDown3 10s forwards infinite;
+          color: rgb(209, 152, 78);
+        }
+      }
+    }   
+   
+    @keyframes rollDown {
+      0%{
+        top: -150px;
+        transform: rotateX(-90deg);
+      }
+      11%{
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+      22%{
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+      33%{
+        top: -20px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
     
+    @keyframes rollDown2 {
+      33%{
+        top: -20px;
+        transform: rotateX(-90deg);
+      }
+      44%{
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+      55%{
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+      66%{
+        top: -150px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
+    
+    @keyframes rollDown3 {
+      66%{
+        top: -150px;
+        transform: rotateX(-90deg);
+      }
+      77%{
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+      88%{
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+      99%{
+        top: -20px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
+      
     @keyframes fatih {
       0% {
         transform: rotate(3deg);
@@ -111,11 +168,14 @@
     }
     
     @media only screen and (max-width: 576px) {
-      .about-text {
+      .about-text{
         font-size: 1.1rem;
       }
       #abouthead {
         font-size: 1.5rem;
+      }
+      .slider{
+        font-size: 150%;
       }
     }
     
@@ -147,60 +207,3 @@
       }
     }
     
-    height: 44px;
-    width: 47px;
-    background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    z-index: 16;
-  }
-  .about-text {
-    margin: 5% 3%;
-    text-align: justify;
-  }
-}
-
-@keyframes fatih {
-  0% {
-    transform: rotate(3deg);
-  }
-  100% {
-    transform: rotate(-3deg);
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .about-text {
-    font-size: 1.1rem;
-  }
-  #abouthead {
-    font-size: 1.5rem;
-  }
-}
-
-@media only screen and (min-width: 576px) {
-  .about-text {
-    font-size: 1.2rem;
-  }
-  #abouthead {
-    font-size: 1.6rem;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .about-text {
-    font-size: 1.5rem;
-  }
-  #abouthead {
-    font-size: 1.8rem;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .about-text {
-    font-size: 2.2rem;
-  }
-  #abouthead {
-    font-size: 2rem;
-  }
-}
