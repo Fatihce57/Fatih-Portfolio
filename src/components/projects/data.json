@@ -1,0 +1,74 @@
+[
+      {
+        "id": 1,
+        "name": "Corona Finder",
+        "technologies": "HTML/CSS, JavaScript, Canvas, Face Api, GitHub, Netlify",
+        "overview": "We need to wear masks during the corona time. So how about finding those who don't? Let's find them and warn them.",
+        "image": "./images/corona_finder.png",
+        "url": "https://coronaalarm.netlify.app/",
+        "github": "https://github.com/Fatihce57/Corona-Face-Recognition-System"
+      },
+      {
+        "id": 2,
+        "name": "Warning Notes",
+        "technologies": "Figma, ReactJs, Bootstrap, SCSS, GitHub, Netlify",
+        "overview": " A nice project where you can write your important notes. You can now follow your shopping and daily work much more easily.",
+        "image": "./images/warningnotes.png",
+        "url": "https://warningnotes.netlify.app",
+        "github": "https://github.com/Fatihce57/Perseverance"
+      },
+      {
+        "id": 3,
+        "name": "Perseverance",
+        "technologies": "HTML/CSS, JavaScript, Bootstrap, GitHub, Netlify",
+        "overview": "It is a very nice website where you can find the latest up-to-date information about the space rocket Perseverance, which was sent to Mars by Nasa.",
+        "image": "./images/perseverance.png",
+        "url": "https://marsperseverance.netlify.app/",
+        "github": "https://github.com/Fatihce57/Perseverance"
+      },
+      {
+        "id": 4,
+        "name": "Wetterlage",
+        "technologies": "HTML/CSS, JavaScript, Bootstrap, GitHub, Netlify, RESTful APIs",
+        "overview": "A good site where you can find out the weather forecast wherever you live in the world.",
+        "image": "./images/wetterlage.png",
+        "url": "https://wetterlage.netlify.app/",
+        "github": "https://github.com/Fatihce57/weather_APP"
+      },
+      {
+        "id": 5,
+        "name": "Analog Uhr",
+        "technologies": "HTML/CSS, JavaScript, GitHub, Netlify",
+        "overview": "How would you like to keep track of your time in a digital clock prepared with JavaScript?",
+        "image": "./images/digital_uhr.png",
+        "url": "https://analoguhr.netlify.app/",
+        "github": "https://github.com/Fatihce57/Analog-clock"
+      },
+      {
+        "id": 6,
+        "name": "Fatih's Restaurant",
+        "technologies": "ReactJs, React-Bootstrap, GitHub, Netlify",
+        "overview": "Are you hungry? Come on then take a look at our food menus.",
+        "image": "./images/menu.png",
+        "url": "https://fatihrestaurant.netlify.app/",
+        "github": "https://github.com/Fatihce57/menu"
+      },
+      {
+        "id": 7,
+        "name": "Top List Movies",
+        "technologies": "HTML/CSS, JavaScript, GitHub, Netlify",
+        "overview": "Are you bored? How about checking out the movies? So you can spend a fun time with your family.",
+        "image": "./images/movies.png",
+        "url": "https://toplistmovies.netlify.app",
+        "github": "https://github.com/Fatihce57/movies_js"
+      },
+      {
+        "id": 8,
+        "name": "Servito",
+        "technologies": "ReactJs, React-Bootstrap , Bootstrap, SCSS, Redux, NodeJs, MongoDB, ExpressJs, Mongoose, Github, Netlify, Figma",
+        "overview": "A decent environment where you can dine with your friends or family. Don't forget to make your reservation online.",
+        "image": "./images/comingsoon.png",
+        "url": "#",
+        "github": "https://github.com/DCIFINALPROJECT"
+      }
+]

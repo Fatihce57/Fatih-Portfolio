@@ -1,11 +1,13 @@
-import './Projects.scss';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap'
+import './Projects.scss'
+import { Container, Row, Col, Card, Button,ListGroupItem } from 'react-bootstrap'
+import data from './data.json'
 
 function Project() {
   return (
     <div className="project">
+
       <h2 id="projecthead">Project</h2>
-        {/* <Row className="justify-content-center">
+      {/* <Row className="justify-content-center">
           <Col className="pb-5" xs={10} sm={11} md={6} lg={4}>
             <Card border="primary">
               <iframe className="project-images" src="https://marsperseverance.netlify.app/" frameBorder="0" title={"project"}></iframe>
@@ -91,31 +93,133 @@ function Project() {
             </Card>
           </Col>
         </Row> */}
+        <Row className="d-flex justify-content-center">
+     
+        {data.map(item => {
+          return (
+            <Col key={item.id} xs={12} md={6} lg={4} xl={3} className="d-flex justify-content-center p-5">
+            <Card  className="project-card">
+            <Card.Link
+                    className="card-link"
+                    href={item.url}
+                    target="_blank"
+                  >
+                    <Card.Img className="card-image" variant="top" src={item.image} />
+                  </Card.Link>
+              <ListGroupItem className="title p-2">
+                <Card.Title className="card-title">{item.name}</Card.Title>
+                <Card.Text>
+                  {item.overview}
+                </Card.Text>
+              </ListGroupItem>
+              <ListGroupItem className="technologies p-2">
+                <Card.Title className="card-title">Technologies</Card.Title>
+                <Card.Text>
+                  {item.technologies}
+                </Card.Text>
+              </ListGroupItem>
+              <ListGroupItem className="p-2 d-flex justify-content-between">
+                <Button className="button">
+                  <Card.Link
+                    className="card-link"
+                    href={item.github}
+                    target="_blank"
+                  >
+                    GitHub
+                  </Card.Link>
+                </Button>
+                <Button className="button">
+                  <Card.Link
+                    className="card-link"
+                    href={item.url}
+                    target="_blank"
+                  >
+                    Live
+                  </Card.Link>
+                </Button>
+              </ListGroupItem>
+            </Card>
+            </Col>
+          )
+        })}
+     
+      </Row>
 
-<Card style={{ width: '20rem',color:'black' }}>
-  <Card.Img variant="top" src="./images/corona_finder.png" />
-  <Card.Body>
-    <Card.Title>Corona Finder</Card.Title>
-    <Card.Text>
-    We need to wear masks during the corona period. So how about finding those who don't? Let's find them and warn them.
-    </Card.Text>
-  </Card.Body>
- <Card.Body>
-    <Card.Title>Technologies</Card.Title>
-    <Card.Text>
-      HTML/CSS, JavaScript, Canvas, Face Api, Netlify
-    </Card.Text>
-  </Card.Body>
-  <Card.Body>
-  <Button variant="danger"><Card.Link href="#">GitHub</Card.Link></Button> 
-  <Button variant="danger"><Card.Link href="#">Live</Card.Link></Button> 
-  </Card.Body>
-</Card>
-  
-<img src="" alt="" />
-
+      {/* <Col className="d-flex justify-content-center">
+        <Card className="project-card">
+          <Card.Img variant="top" src="./images/corona_finder.png" />
+          <Card.Body className="p-2">
+            <Card.Title className="card-title">Corona Finder</Card.Title>
+            <Card.Text>
+              We need to wear masks during the corona time. So how about finding
+              those who don't? Let's find them and warn them.
+            </Card.Text>
+          </Card.Body>
+          <Card.Body className="p-2">
+            <Card.Title className="card-title">Technologies</Card.Title>
+            <Card.Text>
+              HTML/CSS, JavaScript, Canvas, Face Api, GitHub, Netlify
+            </Card.Text>
+          </Card.Body>
+          <Card.Body className="p-2 d-flex justify-content-between">
+            <Button className="button">
+              <Card.Link
+                className="card-link"
+                href="https://github.com/Fatihce57/Corona-Face-Recognition-System"
+                target="_blank"
+              >
+                GitHub
+              </Card.Link>
+            </Button>
+            <Button className="button">
+              <Card.Link
+                className="card-link"
+                href="https://coronaalarm.netlify.app/"
+                target="_blank"
+              >
+                Live
+              </Card.Link>
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card className="project-card">
+          <Card.Img variant="top" src="./images/perseverance.png" />
+          <Card.Body className="p-2">
+            <Card.Title className="card-title">Mars Perseverance</Card.Title>
+            <Card.Text>
+            It is a very nice website where you can find the latest up-to-date information about the space rocket Perseverance, which was sent to Mars by Nasa.
+            </Card.Text>
+          </Card.Body>
+          <Card.Body className="p-2">
+            <Card.Title className="card-title">Technologies</Card.Title>
+            <Card.Text>
+              HTML/CSS, JavaScript, Bootstrap, GitHub, Netlify
+            </Card.Text>
+          </Card.Body>
+          <Card.Body className="p-2 d-flex justify-content-between">
+            <Button className="button">
+              <Card.Link
+                className="card-link"
+                href="https://github.com/Fatihce57/Perseverance"
+                target="_blank"
+              >
+                GitHub
+              </Card.Link>
+            </Button>
+            <Button className="button">
+              <Card.Link
+                className="card-link"
+                href="https://marsperseverance.netlify.app/"
+                target="_blank"
+              >
+                Live
+              </Card.Link>
+            </Button>
+          </Card.Body>
+        </Card>
+      </Col> */}
     </div>
-  );
+  )
 }
 
-export default Project;
+export default Project
