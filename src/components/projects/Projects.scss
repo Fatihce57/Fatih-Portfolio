@@ -2,14 +2,41 @@
 
 .project {
   color: $secondLetterColor;
-  height: 80vh;
+  height: 100%;
   margin: 0 auto;
+  #projecthead {
+    text-align: center;
+    color: $thirdLetterColor;
+  }
+  .project-card {
+    width: 25rem;
+    max-height:30rem;
+    color: $firstLetterColor;
+    margin: 1%;
+    .card-image{
+      max-width:400px;
+      max-height: 200px;
+    }
+    .title {
+      height: 140px;
+    .card-title{
+      color: $secondColor;
+    }
+  }
+  .technologies{
+height: 140px;
+  }
+    .button{
+      background-color: $bgColor;
+      .card-link{
+        text-decoration: none;
+        color: $thirdLetterColor;
+      }
+    }
+  }
 }
 
-#projecthead {
-  text-align: center;
-  color: $thirdLetterColor;
-}
+
 
 // .project-images {
 //   height: 20em;

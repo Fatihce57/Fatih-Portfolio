@@ -7,11 +7,11 @@
     background-color: $bgColor;
     position: absolute;
     z-index: -1;
-    min-height: 100vh;
-    min-width:100vw
+    height: 100vh;
+    width:100vw
   }
   .tsparticles-canvas-el{
-    min-height: 90vh;
+    max-height: 100vh;
   }  
 }
 
