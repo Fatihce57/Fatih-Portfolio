@@ -68,7 +68,7 @@
         "technologies": "ReactJs, React-Bootstrap , Bootstrap, SCSS, Redux, NodeJs, MongoDB, ExpressJs, Mongoose, Github, Netlify, Figma",
         "overview": "A decent environment where you can dine with your friends or family. Don't forget to make your reservation online.",
         "image": "./images/comingsoon.png",
-        "url": "#",
+        "url": "./images/comingsoon.png",
         "github": "https://github.com/DCIFINALPROJECT"
       }
 ]
