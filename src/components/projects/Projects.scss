@@ -1,34 +1,35 @@
 @import '../../scss/layout';
 
 .project {
+  background-color: $bgColor;
   color: $secondLetterColor;
-  height: 100%;
-  margin: 0 auto;
+  min-height: 135vh;
+  margin: 0 auto -10vh auto;
   #projecthead {
     text-align: center;
     color: $thirdLetterColor;
   }
   .project-card {
     width: 25rem;
-    max-height:30rem;
+    max-height: 30rem;
     color: $firstLetterColor;
     margin: 1%;
-    .card-image{
-      max-width:400px;
+    .card-image {
+      max-width: 400px;
       max-height: 200px;
     }
     .title {
       height: 140px;
-    .card-title{
-      color: $secondColor;
+      .card-title {
+        color: $secondColor;
+      }
     }
-  }
-  .technologies{
-height: 140px;
-  }
-    .button{
+    .technologies {
+      height: 140px;
+    }
+    .button {
       background-color: $bgColor;
-      .card-link{
+      .card-link {
         text-decoration: none;
         color: $thirdLetterColor;
       }
@@ -36,60 +37,26 @@ height: 140px;
   }
 }
 
+@media only screen and (max-width: 576px) {
+  #projecthead {
+    font-size: 1.5rem;
+  }
+}
 
+@media only screen and (min-width: 576px) {
+  #projecthead {
+    font-size: 1.6rem;
+  }
+}
 
-// .project-images {
-//   height: 20em;
-// }
+@media only screen and (min-width: 768px) {
+  #projecthead {
+    font-size: 1.8rem;
+  }
+}
 
-// @media only screen and (max-width: 576px) {
-//   .project-images {
-//     height: 300px;
-//   }
-//   #projecthead {
-//     font-size: 1.5rem;
-//   }
-//   .information {
-//     height: 4rem;
-//     font-size: 0.8rem;
-//   }
-// }
-
-// @media only screen and (min-width: 576px) {
-//   .project-images {
-//     height: 450px;
-//   }
-//   #projecthead {
-//     font-size: 1.6rem;
-//   }
-//   .information {
-//     height: 4rem;
-//     font-size: 1rem;
-//   }
-// }
-
-// @media only screen and (min-width: 768px) {
-//   .project-images {
-//     height: 400px;
-//   }
-//   #projecthead {
-//     font-size: 1.8rem;
-//   }
-//   .information {
-//     height: 5rem;
-//     font-size: 1rem;
-//   }
-// }
-
-// @media only screen and (min-width: 992px) {
-//   .project-images {
-//     height: 500px;
-//   }
-//   #projecthead {
-//     font-size: 2rem;
-//   }
-//   .information {
-//     height: 7rem;
-//     font-size: 1rem;
-//   }
-// }
+@media only screen and (min-width: 992px) {
+  #projecthead {
+    font-size: 2rem;
+  }
+}
