@@ -3,7 +3,7 @@
 .project {
   background-color: $bgColor;
   color: $secondLetterColor;
-  min-height: 135vh;
+  min-height: 125vh;
   margin: 0 auto -10vh auto;
   #projecthead {
     text-align: center;
@@ -20,12 +20,12 @@
     }
     .title {
       height: 140px;
-      .card-title {
-        color: $secondColor;
-      }
     }
     .technologies {
       height: 140px;
+    }
+    .card-title {
+      color: $secondColor;
     }
     .button {
       background-color: $bgColor;
