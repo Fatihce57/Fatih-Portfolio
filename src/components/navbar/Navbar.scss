@@ -5,14 +5,10 @@
   height: 10vh;
   .fixed-top {
     opacity: 1;
-    .logo{
-      width: 5vw;
-      margin:0 2%;
-    }
     .navbar-toggle{
       margin-right: 5%;
     }
-    .text-danger {
+    .nav-link {
       color: $thirdLetterColor;
       text-decoration: none;
       padding: 1rem;
@@ -31,25 +27,27 @@
 @media only screen and (max-width: 576px) {
   .navbar-toggle{
 font-size:0.8rem;
-  .text-danger {
-    font-size: 0.5rem;
-}}}
+}
+  .nav-link {
+    font-size: 0.8rem;
+}}
 
 @media only screen and (min-width: 576px) {
   .navbar-toggle{
     font-size:1rem;
-      .text-danger {
-        font-size: 0.5em;
-    }}}
+  }
+    .nav-link{
+        font-size: 0.9em;
+    }}
 
 @media only screen and (min-width: 768px) {
-  .text-danger {
+  .nav-link {
     font-size: 0.9em;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .text-danger {
+  .nav-link {
     font-size: 1em;
   }
 }
