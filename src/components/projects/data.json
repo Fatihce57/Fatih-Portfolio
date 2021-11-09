@@ -56,7 +56,7 @@
       {
         "id": 7,
         "name": "Top List Movies",
-        "technologies": "HTML/CSS, JavaScript, GitHub, Netlify",
+        "technologies": "HTML/CSS, JavaScript, RESTful APIs, GitHub, Netlify",
         "overview": "Are you bored? How about checking out the movies? So you can spend a fun time with your family.",
         "image": "./images/movies.png",
         "url": "https://toplistmovies.netlify.app",
