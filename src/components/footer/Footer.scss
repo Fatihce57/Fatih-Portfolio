@@ -11,7 +11,6 @@
     a {
       margin: 0 2%;    
     .sos_med {
-      font-size: 1.2rem;
       color: $secondColor;
     }
     .sos_med:hover {
@@ -19,7 +18,6 @@
     }    
   }}
   .fatih {
-    font-size: 0.8rem;
     color: $secondColor;
     display: flex;
     justify-content: center;
@@ -29,3 +27,40 @@
     }
     } 
 }
+
+@media only screen and (max-width: 576px) {
+  .sos_med{
+font-size: 0.7em
+  }
+  .fatih{
+    font-size: 0.6em
+      }
+ }
+
+@media only screen and (min-width: 576px) {
+  .sos_med{
+    font-size: 0.8em
+      }
+      .fatih{
+        font-size: 0.7em
+          }
+     }
+
+@media only screen and (min-width: 768px) {
+  .sos_med{
+    font-size: 0.9em
+      }
+      .fatih{
+        font-size: 0.7em
+          }
+     }
+
+
+@media only screen and (min-width: 992px) {
+  .sos_med{
+    font-size: 1em
+      }
+      .fatih{
+        font-size: 0.8em
+          }
+     }
