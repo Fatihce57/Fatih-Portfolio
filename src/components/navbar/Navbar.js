@@ -11,23 +11,23 @@ function Navigation() {
         expand="md"
         variant="dark"
       >
-        <Link to="/" className="logo fw-bold fs-4 text-danger">
+        <Link to="/" className="nav-link">
           <img className="fatih-logo" src="./images/fatihphoto.jpg" alt="fatih logo" />
         </Link>
         <Navbar.Toggle className="navbar-toggle" aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Col>
             <Nav className="mr-auto">
-              <Link to="/about" className="text-danger">
+              <Link to="/about" className="nav-link">
                 About
               </Link>
-              <Link to="/projects" className="text-danger">
+              <Link to="/projects" className="nav-link">
                 Projects
               </Link>
-              <Link to="/skills" className="text-danger">
+              <Link to="/skills" className="nav-link">
                 Skills
               </Link>
-              <Link to="/contact" className="text-danger">
+              <Link to="/contact" className="nav-link">
                 Contact
               </Link>
             </Nav>
