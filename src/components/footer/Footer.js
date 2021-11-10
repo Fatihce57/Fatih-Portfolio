@@ -33,10 +33,10 @@ function Footer() {
             </a>
           </div>
           <h4 className="fatih">
-           Fatih Cengiz{' '}
+           Fatih Cengiz
             <span className="copy">
               <FaCopyright />
-            </span>{' '}
+            </span>
             2021
           </h4>
      

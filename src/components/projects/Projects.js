@@ -20,17 +20,17 @@ function Project() {
                   </Card.Link>
               <ListGroupItem className="title p-2">
                 <Card.Title className="card-title">{item.name}</Card.Title>
-                <Card.Text>
+                <Card.Text className="card-text">
                   {item.overview}
                 </Card.Text>
               </ListGroupItem>
               <ListGroupItem className="technologies p-2">
                 <Card.Title className="card-title">Technologies</Card.Title>
-                <Card.Text>
+                <Card.Text className="card-text">
                   {item.technologies}
                 </Card.Text>
               </ListGroupItem>
-              <ListGroupItem className="p-2 d-flex justify-content-between">
+              <ListGroupItem className="button-area p-2 d-flex justify-content-between">
                 <Button className="button">
                   <Card.Link
                     className="card-link"
