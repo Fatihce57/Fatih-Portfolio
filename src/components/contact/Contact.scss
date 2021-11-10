@@ -6,7 +6,6 @@
   #contacthead {
     text-align: center;
     color: $thirdLetterColor;
-    font-size: 2rem;
   }
   .background {
     font-family: 'Montserrat', sans-serif;
@@ -210,7 +209,7 @@
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   #contacthead {
     font-size: 2rem;
   }
