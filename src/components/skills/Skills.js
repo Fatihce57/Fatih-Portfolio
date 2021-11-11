@@ -9,17 +9,17 @@ function Skills() {
       <h1 id="skillshead">Skills</h1>
       <div className="skills-container">
         <Row className="m-0 justify-content-center">
-          <Col xs={3}>
+          <Col xs={{ span: 1, offset: 1 }}>
             <i className="skills-icon html5">
               <FaHtml5 />
             </i>
           </Col>
-          <Col xs={{ span: 2, offset: 1 }}>
+          <Col xs={{ span: 2, offset: 2 }}>
             <i className="skills-icon mongodb">
               <SiMongodb />
             </i>
           </Col>
-          <Col xs={{ span: 2, offset: 1 }}>
+          <Col xs={{ span: 3, offset: 1 }}>
             <i className="skills-icon css3">
               <FaCss3Alt />
             </i>
@@ -31,19 +31,19 @@ function Skills() {
               <SiJavascript />
             </i>
           </Col>
-          <Col xs={{ span: 5, offset: 3 }}>
+          <Col xs={{ span: 5, offset: 2 }}>
             <i className="skills-icon react">
               <SiReact />
             </i>
           </Col>
         </Row>
         <Row className="m-0 justify-content-center">
-          <Col xs={{ span: 3, offset: 1 }}>
+          <Col xs={{ span: 1, offset: 1  }}>
             <i className="skills-icon sass">
               <FaSass />
             </i>
           </Col>
-          <Col xs={{ span: 3, offset: 1 }}>
+          <Col xs={{ span: 2, offset: 2 }}>
             <i className="skills-icon figma">
               <SiFigma />
             </i>

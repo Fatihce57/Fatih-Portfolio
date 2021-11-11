@@ -6,11 +6,16 @@
   #skillshead {
     text-align: center;
     color: $thirdLetterColor;
+    margin-bottom: 5%;
   }
   .skills-container {
-    margin-top: 5%;
+margin:5%;
+
     .skills-icon {
       display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 10rem;
       opacity: 1;
       -webkit-animation: rotate-center 0.9s ease-in-out both;
       animation: rotate-center 0.9s ease-in-out both;
