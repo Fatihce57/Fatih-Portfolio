@@ -8,7 +8,7 @@ function Skills() {
     <div className="skills">
       <h1 id="skillshead">Skills</h1>
       <div className="skills-container">
-        <Row className="m-0 justify-content-center">
+        <Row className="mb-5 justify-content-center">
           <Col xs={{ span: 1, offset: 1 }}>
             <i className="skills-icon html5">
               <FaHtml5 />
@@ -25,7 +25,7 @@ function Skills() {
             </i>
           </Col>
         </Row>
-        <Row className="m-0 justify-content-center">
+        <Row className="mb-5 justify-content-center">
           <Col xs={{ span: 1, offset: 3 }}>
             <i className="skills-icon js">
               <SiJavascript />
@@ -37,7 +37,7 @@ function Skills() {
             </i>
           </Col>
         </Row>
-        <Row className="m-0 justify-content-center">
+        <Row className="mb-5 justify-content-center">
           <Col xs={{ span: 1, offset: 1  }}>
             <i className="skills-icon sass">
               <FaSass />
