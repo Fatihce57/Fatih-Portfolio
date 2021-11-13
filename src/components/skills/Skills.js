@@ -5,8 +5,7 @@ import { Row, Col } from 'react-bootstrap'
 
 function Skills() {
   return (
-    <div className="skills">
-      <h1 id="skillshead">Skills</h1>
+    <div className="skills pt-1">
       <div className="skills-container">
         <Row className="mb-5 justify-content-center">
           <Col xs={{ span: 1, offset: 1 }}>

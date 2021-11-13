@@ -6,7 +6,6 @@ import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa'
 function Contact() {
   return (
     <div className="contact">
-      <h2 id="contacthead">Contact</h2>
       <div class="background">
         <div class="container">
           <div class="screen">

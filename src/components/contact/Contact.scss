@@ -3,10 +3,6 @@
 .contact {
   height: 80vh;
   margin: 0 auto;
-  #contacthead {
-    text-align: center;
-    color: $thirdLetterColor;
-  }
   .background {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -174,9 +170,6 @@
 }
 
 @media only screen and (max-width: 576px) {
-  #contacthead {
-    font-size: 1.5rem;
-  }
   .aboutme,
   .social_media p,
   .address,
@@ -186,9 +179,6 @@
 }
 
 @media only screen and (min-width: 576px) {
-  #contacthead {
-    font-size: 1.6rem;
-  }
   .aboutme,
   .social_media p,
   .address,
@@ -198,9 +188,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  #contacthead {
-    font-size: 1.8rem;
-  }
   .aboutme,
   .social_media p,
   .address,
@@ -210,9 +197,6 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  #contacthead {
-    font-size: 2rem;
-  }
   .aboutme,
   .social_media p,
   .address,

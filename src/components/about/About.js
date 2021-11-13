@@ -3,9 +3,8 @@ import { Container, Row, Col, Image, Figure } from 'react-bootstrap'
 
 function About() {
   return (
-    <div className="about">
-      <h2 id="abouthead">About me</h2>
-      <Container>
+    <div className="about pt-5">
+      <Container >
         <Row className="justify-content-center">
           <Col xs={6} sm={6} md={5} xl={3}>
             <Figure className="about-fatih">

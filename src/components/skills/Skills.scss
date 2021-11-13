@@ -3,19 +3,13 @@
 .skills {
   height: 80vh;
   margin: 0 auto;
-  #skillshead {
-    text-align: center;
-    color: $thirdLetterColor;
-    margin-bottom: 5%;
-  }
   .skills-container {
 margin:5%;
-
     .skills-icon {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 8rem;
+      width: 7rem;
       opacity: 1;
       -webkit-animation: rotate-center 0.9s ease-in-out both;
       animation: rotate-center 0.9s ease-in-out both;
@@ -70,36 +64,24 @@ margin:5%;
 }
 
 @media only screen and (max-width: 576px) {
-  #skillshead {
-    font-size: 1.5rem;
-  }
   .skills-icon {
     font-size: 5rem;
   }
 }
 
 @media only screen and (min-width: 576px) {
-  #skillshead {
-    font-size: 1.6rem;
-  }
   .skills-icon {
     font-size: 7rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  #skillshead {
-    font-size: 1.8rem;
-  }
   .skills-icon {
     font-size: 9rem;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  #skillshead {
-    font-size: 2rem;
-  }
   .skills-icon {
     font-size: 10rem;
   }

@@ -4,8 +4,7 @@ import data from './data.json'
 
 function Project() {
   return (
-    <div className="project">
-      <h2 id="projecthead">Project</h2>
+    <div className="project pt-5">
         <Row className="d-flex justify-content-center">  
         {data.map(item => {
           return (

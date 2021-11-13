@@ -1,6 +1,7 @@
 import './Navbar.scss'
 import { Link } from 'react-router-dom'
 import { Nav, Navbar, Col } from 'react-bootstrap'
+import MultiPlayer from './multiplayer/MultiPlayer'
 
 function Navigation() {
   return (
@@ -14,10 +15,18 @@ function Navigation() {
         <Link to="/" className="nav-link">
           <img className="fatih-logo" src="./images/fatihphoto.jpg" alt="fatih logo" />
         </Link>
+        <MultiPlayer
+        urls={[
+          "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        ]}
+      />
         <Navbar.Toggle className="navbar-toggle" aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Col>
             <Nav className="mr-auto">
+            <Link to="/" className="nav-link">
+          Home
+        </Link>
               <Link to="/about" className="nav-link">
                 About
               </Link>
