@@ -5,10 +5,6 @@
   color: $secondLetterColor;
   min-height: 125vh;
   margin: 0 auto -10vh auto;
-  #projecthead {
-    text-align: center;
-    color: $thirdLetterColor;
-  }
   .project-card {
     width: 25rem;
     max-height: 30rem;
@@ -56,25 +52,19 @@
 }
 
 @media only screen and (max-width: 576px) {
-  #projecthead {
-    font-size: 1.5rem;
-  }
+
+  
 }
 
 @media only screen and (min-width: 576px) {
-  #projecthead {
-    font-size: 1.6rem;
-  }
+
+  
 }
 
 @media only screen and (min-width: 768px) {
-  #projecthead {
-    font-size: 1.8rem;
-  }
+
 }
 
 @media only screen and (min-width: 1200px) {
-  #projecthead {
-    font-size: 2rem;
-  }
+
 }
