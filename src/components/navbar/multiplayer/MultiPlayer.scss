@@ -1,8 +1,33 @@
 @import '../../../scss/layout';
 
+.button{
+  background-color: $bgColor;
 .icon{
-  
-    // border: solid 1px $firstColor;
-    // border-radius: 50%;
-    // background-color: $bgColor;
+    border-radius: 50%;
+    background-color: $firstColor;
   }
+}
+
+@media only screen and (max-width: 576px) {
+  .icon{
+    width:30px
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .icon{
+    width:30px
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .icon{
+    width:30px
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .icon{
+    width:30px
+  }
+}
