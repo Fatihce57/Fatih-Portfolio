@@ -8,12 +8,11 @@
   .project-card {
     width: 25rem;
     max-height: 30rem;
-    color: $firstLetterColor;
-  
+    color: $firstLetterColor;  
     margin: 1%;
     .card-image {
       max-width: 400px;
-      max-height: 200px;
+      height: 200px;
     }
     .title {
       height: 100px;

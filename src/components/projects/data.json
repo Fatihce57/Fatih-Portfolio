@@ -11,7 +11,7 @@
       {
         "id": 2,
         "name": "Warning Notes",
-        "technologies": "Figma, ReactJs, Bootstrap, SCSS, GitHub, Netlify",
+        "technologies": "Figma, ReactJs, Bootstrap, CSS, GitHub, Netlify",
         "overview": " A nice project where you can write your important notes. You can now follow your shopping and daily work much more easily.",
         "image": "./images/warningnotes.png",
         "url": "https://warningnotes.netlify.app",
