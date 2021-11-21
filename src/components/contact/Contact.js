@@ -61,104 +61,80 @@ function Contact() {
         <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
     */}
 
-      <div className="background">
-        <div className="container">
-          <div className="screen">
-            <div className="screen-header">
-              <div className="screen-header-left">
-                <div className="screen-header-button close"></div>
-                <div className="screen-header-button maximize"></div>
-                <div className="screen-header-button minimize"></div>
-              </div>
-              <div className="screen-header-right">
-                <div className="screen-header-ellipsis"></div>
-                <div className="screen-header-ellipsis"></div>
-                <div className="screen-header-ellipsis"></div>
-              </div>
-            </div>
-            <div className="screen-body">
-              <div className="screen-body-item left">
-                <div className="app-title">
-                  <span>CONTACT</span>
-                  <span>ME</span>
-                </div>
-              </div>
-              <div className="screen-body-item">
-                <div className="app-form">
-                  <div className="app-form-group">
-                    <input
-                      className="app-form-control"
-                      placeholder="NAME"
-                      value={name}
-                      onChange={(e) => setName(e.target.value)}
-                    />
-                  </div>
-                  <div className="app-form-group">
-                    <input
-                      className="app-form-control"
-                      placeholder="EMAIL"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                    />
-                  </div>
-                  <div className="app-form-group">
-                    <input
-                      className="app-form-control"
-                      placeholder="CONTACT NO"
-                      value={number}
-                      onChange={(e) => setNumber(e.target.value)}
-                    />
-                  </div>
-                  <div className="app-form-group message">
-                    <textarea
-                      className="app-form-control"
-                      placeholder="MESSAGE"
-                      value={message}
-                      onChange={(e) => setMessage(e.target.value)}
-                    />
-                  </div>
-                  <div className="app-form-group buttons">
-                    <button className="app-form-button" onClick={cancel}>
-                      CANCEL
-                    </button>
-                    <button className="app-form-button" onClick={submit}>
-                      SEND
-                    </button>
-                    {/* <span
-                      id="sent-message"
-                      className={emailSent ? 'visible' : null}
-                    >
-                      Thank you for your message, I will be in touch in no time!
-                    </span> */}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+   
+
+
+
+
+  
+  <div class="contact-wrapper">
+  
+
+    
+    <form id="contact-form" class="form-horizontal" role="form">
+       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" required value={name} onChange={e => setName(e.target.value)}/>
         </div>
       </div>
 
-      <Container>
-        <Row className="communication">
-          <Col xs={6}>
-            <i className="address">
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" required value={email} onChange={e => setEmail(e.target.value)}/>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="number" class="form-control" id="number" placeholder="NUMBER" name="email" required value={number} onChange={e => setNumber(e.target.value)}/>
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required value={message} onChange={e => setMessage(e.target.value)}></textarea>
+      
+      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND" onClick={submit}>
+        <div class="alt-send-button">
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+        </div>
+      
+      </button>
+      
+    </form>
+    
+
+    
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+        <li className="address">
               <FaMapMarkerAlt /> Berlin, Germany
-            </i>
-            <br />
-            <br />
-            <i className="email">
+            </li>     
+         <li className="email">
               <FaEnvelope /> fatihce57@gmail.com
-            </i>
-          </Col>
-          <Col xs={6} className="social_media">
+            </li>
+
+            <li>
             <h3 className="aboutme">Informations </h3>
             <p>
               You can always contact me via my social media accounts or mail. I
               will give you feedback within 1 day.
             </p>
-          </Col>
-        </Row>
-      </Container>
+            </li>
+          
+        </ul>
+
+
+
+      </div>
+    
+  </div>
+  
+
+
+
+
+
     </div>
   )
 }
