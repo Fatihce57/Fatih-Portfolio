@@ -59,7 +59,7 @@ function Contact() {
   }
 
   return (
-    <div className="contact">
+    <Row className="contact pt-5">
       {/* <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
         <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} />
         <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
@@ -67,10 +67,8 @@ function Contact() {
         <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
     */}
 
-      <Row class="contact-wrapper">
-        <Col id="contact-form" class="form-horizontal" role="form">
-          <div class="form-group">
-            <div class="col-sm-12">
+        <Col xs={10} md={5} id="contact-form" class="form-horizontal m-0" role="form">
+          <div class="form-group">          
               <input
                 type="text"
                 class="form-control"
@@ -81,11 +79,10 @@ function Contact() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
-            </div>
+          
           </div>
 
-          <div class="form-group">
-            <div class="col-sm-12">
+          <div class="form-group">           
               <input
                 type="email"
                 class="form-control"
@@ -96,11 +93,10 @@ function Contact() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
-            </div>
+
           </div>
 
-          <div class="form-group">
-            <div class="col-sm-12">
+          <div class="form-group">           
               <input
                 type="text"
                 class="form-control"
@@ -111,24 +107,25 @@ function Contact() {
                 value={number}
                 onChange={(e) => setNumber(e.target.value)}
               />
-            </div>
+        
           </div>
-
+          <div class="form-group">   
           <textarea
             class="form-control"
-            rows="10"
+            rows="8"
             placeholder="Your Message"
             name="message"
             required
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
-
+</div>
+          <div class="form-group">   
           <button
             class="btn btn-warning send-button"
             id="submit"
             type="submit"
-            value="SEND"
+            value="send"
             onClick={submit}
           >
             <div class="alt-send-button">
@@ -138,28 +135,31 @@ function Contact() {
               </span>
             </div>
           </button>
+          </div>
         </Col>
 
-        <Col class="direct-contact-container">
+        <Col xs={10} md={5} class="direct-contact-container">
+          
           <ul class="contact-list">
-            <li className="address">
-              <FaMapMarkerAlt /> Berlin, Germany
-            </li>
-            <li className="email">
-              <FaEnvelope /> fatihce57@gmail.com
-            </li>
-            <hr />
-            <li>
+          <li>
               <h3 className="aboutme">Informations </h3>
               <p>
                 You can always contact me via my social media accounts or mail.
                 I will give you feedback within 1 day.
               </p>
             </li>
-          </ul>
-        </Col>
+            <hr />
+            <li className="address">
+              <FaMapMarkerAlt /> Berlin, Germany
+            </li>
+            <br />        
+            <li className="email">
+              <FaEnvelope /> fatihce57@gmail.com
+            </li>
+                     </ul>
+               </Col>
       </Row>
-    </div>
+  
   )
 }
 
