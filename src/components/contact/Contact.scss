@@ -3,29 +3,30 @@
 .contact {
   height: 80vh;
   margin: 0 auto;
-  .contact-wrapper {
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 940px;
-    .form-horizontal {
-      max-width: 400px;
-      font-weight: 400;
-    }    
-  }
+  display: flex;
+  justify-content: center;
+.form-group{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
   .form-control, 
   textarea {
-    max-width: 400px;
+    width: 100%;
     background-color: $bgColor;
     color: #fff;
     letter-spacing: 1px;
   }
   .send-button {
-    color:rgb(54, 109, 41);
+    color:rgb(109, 41, 58);
     margin-top: 15px;
     height: 44px;
-    width: 400px;
+    width: 100%;
     overflow: hidden;
     transition: all .2s ease-in-out;
+    display: flex;
+    justify-content: center;
   }
   .alt-send-button {
     width: 400px;
@@ -40,14 +41,14 @@
     transform: translate3d(0px, -29px, 0px);
   }
   .direct-contact-container {
-    max-width: 400px;
+width: 500px;
   }
   .contact-list {
     list-style-type: none;
-    margin-left: -30px;
-    padding-right: 20px;
     color: $thirdLetterColor;
+    padding: 0;
   }
+ 
   hr {
     border-color: rgba(255,255,255,.6);
   }
@@ -55,7 +56,7 @@
 }
  @media only screen and (max-width: 576px) {  
    .aboutme,
-   .social_media p,
+   .contact-list p,
    .address,
    .email {
      font-size: 0.7rem;
@@ -64,7 +65,7 @@
 
  @media only screen and (min-width: 576px) {
    .aboutme,
-   .social_media p,
+   .contact-list p,
    .address,
    .email {
      font-size: 0.8rem;
@@ -73,7 +74,7 @@
 
  @media only screen and (min-width: 768px) {
    .aboutme,
-   .social_media p,
+   .contact-list  p,
    .address,
    .email {
      font-size: 1rem;
@@ -82,7 +83,7 @@
 
  @media only screen and (min-width: 1200px) {
    .aboutme,
-   .social_media p,
+   .contact-list p,
    .address,
    .email {
      font-size: 1.5rem;
