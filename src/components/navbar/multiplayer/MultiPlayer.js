@@ -57,7 +57,7 @@ const useMultiAudio = urls => {
         });
       });
     };
-  }, []);
+  });
 
   return [players, toggle];
 };

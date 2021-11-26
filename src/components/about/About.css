@@ -59,7 +59,8 @@
 .slider {
   -webkit-animation: slideColor 10s forwards infinite;
           animation: slideColor 10s forwards infinite;
-  margin: 1%;
+  margin: 0;
+  height: 3rem;
 }
 
 .slider .caption {
@@ -297,9 +298,9 @@
     font-size: 1rem;
   }
   .slider .caption {
-    line-height: 138px;
-    -webkit-transform: translateY(-60%);
-            transform: translateY(-60%);
+    line-height: 135px;
+    -webkit-transform: translateY(-80%);
+            transform: translateY(-80%);
   }
 }
 

@@ -1,17 +1,17 @@
 @import '../../scss/layout';
 
 .contact {
-  height: 80vh;
-  margin: 0 auto;
+  min-height: 80vh;
+  margin: 0 auto ;
   display: flex;
   justify-content: center;
-.form-group{
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-}
+  .form-group {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
 
-  .form-control, 
+  .form-control,
   textarea {
     width: 100%;
     background-color: $bgColor;
@@ -19,72 +19,84 @@
     letter-spacing: 1px;
   }
   .send-button {
-    color:rgb(109, 41, 58);
+    color: rgb(109, 41, 58);
     margin-top: 15px;
     height: 44px;
     width: 100%;
     overflow: hidden;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     display: flex;
     justify-content: center;
   }
   .alt-send-button {
     width: 400px;
     height: 44px;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     .send-text {
       display: block;
-      margin-top: 8px;  
-    }    
+      margin-top: 8px;
+    }
   }
   .alt-send-button:hover {
     transform: translate3d(0px, -29px, 0px);
   }
   .direct-contact-container {
-width: 500px;
+    width: 500px;
   }
   .contact-list {
     list-style-type: none;
     color: $thirdLetterColor;
     padding: 0;
   }
- 
+
   hr {
-    border-color: rgba(255,255,255,.6);
+    border-color: rgba(255, 255, 255, 0.6);
   }
-  
 }
- @media only screen and (max-width: 576px) {  
-   .aboutme,
-   .contact-list p,
-   .address,
-   .email {
-     font-size: 0.7rem;
-   }
- }
+@media only screen and (max-width: 576px) {
+  .contact{
+    padding: 0 !important;
+  .send-button {
+    margin-top: 1px;
+    height: 34px;
+    width: 100%;
+  }
+  .alt-send-button {
+    width: 100%;
+    height: 34px;    
+  }
+  .aboutme,
+  .contact-list p,
+  .address,
+  .email {
+    font-size: 0.7rem;
+  }
+}
+}
 
- @media only screen and (min-width: 576px) {
-   .aboutme,
-   .contact-list p,
-   .address,
-   .email {
-     font-size: 0.8rem;
-   }
- }
+@media only screen and (min-width: 576px) {
+  .aboutme,
+  .contact-list p,
+  .address,
+  .email {
+    font-size: 0.8rem;
+  }
+}
 
- @media only screen and (min-width: 768px) {
-   .aboutme,
-   .contact-list  p,
-   .address,
-   .email {
-     font-size: 1rem;
-   }
- }
+@media only screen and (min-width: 768px) {
+  .aboutme,
+  .contact-list p,
+  .address,
+  .email {
+    font-size: 1rem;
+  }
+}
 
- @media only screen and (min-width: 1200px) {
-   .aboutme,
-   .contact-list p,
-   .address,
-   .email {
-     font-size: 1.5rem;
-   }}
+@media only screen and (min-width: 1200px) {
+  .aboutme,
+  .contact-list p,
+  .address,
+  .email {
+    font-size: 1.5rem;
+  }
+}

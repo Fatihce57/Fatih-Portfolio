@@ -22,8 +22,8 @@ function About() {
             </p>
           </Col>
         </Row>
-        <Row className="slider mt-5">
-          <div className="caption">
+        <Row className="slider">
+          <div className="caption mt-5">
             I am a &nbsp;
             <div className="text-box">
               <div>father</div>

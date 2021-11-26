@@ -59,18 +59,18 @@ function Contact() {
   }
 
   return (
-    <Row className="contact pt-5">
+    <Row className="contact">
       <Col
         xs={10}
         md={5}
         id="contact-form"
-        class="form-horizontal m-0"
+        className="form-horizontal m-0"
         role="form"
       >
-        <div class="form-group">
+        <div className="form-group">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             id="name"
             placeholder="Name"
             name="name"
@@ -79,10 +79,10 @@ function Contact() {
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <input
             type="email"
-            class="form-control"
+            className="form-control"
             id="email"
             placeholder="E-Mail"
             name="email"
@@ -91,10 +91,10 @@ function Contact() {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             id="number"
             placeholder="Tel Number"
             name="email"
@@ -103,9 +103,9 @@ function Contact() {
             onChange={(e) => setNumber(e.target.value)}
           />
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <textarea
-            class="form-control"
+            className="form-control"
             rows="8"
             placeholder="Your Message"
             name="message"
@@ -114,25 +114,25 @@ function Contact() {
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <button
-            class="btn btn-warning send-button"
+            className="btn btn-warning send-button"
             id="submit"
             type="submit"
             value="send"
             onClick={submit}
           >
-            <div class="alt-send-button">
+            <div className="alt-send-button">
               <FaEnvelopeOpenText />
-              <span class="send-text">
+              <span className="send-text">
                 <FaPaperPlane />
               </span>
             </div>
           </button>
-                 </div>
-                 <div class="form-group">
-                 <button
-            class="btn btn-warning send-button"
+        </div>
+        <div className="form-group">
+          <button
+            className="btn btn-warning send-button"
             id="submit"
             type="submit"
             value="send"
@@ -140,10 +140,10 @@ function Contact() {
           >
             Cancel
           </button>
-                 </div>
+        </div>
       </Col>
-      <Col xs={10} md={5} class="direct-contact-container">
-        <ul class="contact-list">
+      <Col xs={10} md={5} className="direct-contact-container">
+        <ul className="contact-list">
           <li>
             <h3 className="aboutme">Informations </h3>
             <p>

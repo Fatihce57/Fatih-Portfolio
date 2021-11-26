@@ -50,7 +50,8 @@
 
     .slider{    
       animation: slideColor 10s forwards infinite;
-      margin:1%;
+      margin:0;
+      height: 3rem;
       .caption{
         line-height: 125px;
         color: $secondLetterColor;
@@ -174,8 +175,8 @@
       .slider{
         font-size: 1rem;
         .caption{
-          line-height: 138px;
-          transform: translateY(-60%);
+          line-height: 135px;
+          transform: translateY(-80%);
         }
       }
       
