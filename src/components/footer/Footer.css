@@ -1,0 +1,79 @@
+.footer {
+  height: 10vh;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+}
+
+.footer .container-sos-med {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .container-sos-med a {
+  margin: 0 2%;
+}
+
+.footer .container-sos-med a .sos_med {
+  color: #c7a853;
+}
+
+.footer .container-sos-med a .sos_med:hover {
+  color: #b3e5fc;
+}
+
+.footer .fatih {
+  color: #c7a853;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1%;
+}
+
+.footer .fatih .copy {
+  margin: 0 1%;
+}
+
+@media only screen and (max-width: 576px) {
+  .sos_med {
+    font-size: 0.7em;
+  }
+  .fatih {
+    font-size: 0.6em;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .sos_med {
+    font-size: 0.8em;
+  }
+  .fatih {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sos_med {
+    font-size: 0.9em;
+  }
+  .fatih {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .sos_med {
+    font-size: 1em;
+  }
+  .fatih {
+    font-size: 0.8em;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

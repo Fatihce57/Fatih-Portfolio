@@ -1,0 +1,103 @@
+.skills {
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.skills .skills-container {
+  margin: 5%;
+}
+
+.skills .skills-container .skills-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 7rem;
+  opacity: 1;
+  -webkit-animation: rotate-center 0.9s ease-in-out both;
+  animation: rotate-center 0.9s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.skills .skills-container .html5 {
+  color: orangered;
+}
+
+.skills .skills-container .css3 {
+  color: blue;
+}
+
+.skills .skills-container .js {
+  color: #ffcc33;
+}
+
+.skills .skills-container .react {
+  color: aqua;
+}
+
+.skills .skills-container .sass {
+  color: #d20df5;
+}
+
+.skills .skills-container .node {
+  color: green;
+}
+
+.skills .skills-container .mongodb {
+  color: green;
+}
+
+.skills .skills-container .figma {
+  color: #ff4dff;
+}
+
+@media only screen and (max-width: 576px) {
+  .skills-icon {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .skills-icon {
+    font-size: 7rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .skills-icon {
+    font-size: 9rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .skills-icon {
+    font-size: 10rem;
+  }
+}
+/*# sourceMappingURL=Skills.css.map */

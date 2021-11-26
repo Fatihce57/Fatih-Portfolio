@@ -1,0 +1,112 @@
+.contact {
+  height: 80vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
+
+.contact .form-control,
+.contact textarea {
+  width: 100%;
+  background-color: #072133;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.contact .send-button {
+  color: #6d293a;
+  margin-top: 15px;
+  height: 44px;
+  width: 100%;
+  overflow: hidden;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact .alt-send-button {
+  width: 400px;
+  height: 44px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.contact .alt-send-button .send-text {
+  display: block;
+  margin-top: 8px;
+}
+
+.contact .alt-send-button:hover {
+  -webkit-transform: translate3d(0px, -29px, 0px);
+          transform: translate3d(0px, -29px, 0px);
+}
+
+.contact .direct-contact-container {
+  width: 500px;
+}
+
+.contact .contact-list {
+  list-style-type: none;
+  color: #b3e5fc;
+  padding: 0;
+}
+
+.contact hr {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+@media only screen and (max-width: 576px) {
+  .aboutme,
+  .contact-list p,
+  .address,
+  .email {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .aboutme,
+  .contact-list p,
+  .address,
+  .email {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutme,
+  .contact-list p,
+  .address,
+  .email {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .aboutme,
+  .contact-list p,
+  .address,
+  .email {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

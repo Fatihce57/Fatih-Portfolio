@@ -3,13 +3,13 @@
 .project {
   background-color: $bgColor;
   color: $secondLetterColor;
-  min-height: 125vh;
+  min-height: 80vh;
   margin: 0 auto -10vh auto;
+  padding:4% 2% 20% 2%;
   .project-card {
-    width: 25rem;
+    max-width: 23rem;
     max-height: 30rem;
     color: $firstLetterColor;  
-    margin: 1%;
     .card-image {
       max-width: 400px;
       height: 200px;
@@ -51,8 +51,7 @@
 }
 
 @media only screen and (max-width: 576px) {
-
-  
+ 
 }
 
 @media only screen and (min-width: 576px) {

@@ -1,0 +1,149 @@
+.container_header {
+  height: 80vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.exclamation {
+  color: red;
+}
+
+.header_fatih {
+  color: #17a3e4;
+}
+
+.smileicon {
+  color: yellow;
+}
+
+.speed {
+  padding: 2%;
+  margin: 1%;
+  border-radius: 4px;
+  position: relative;
+  text-align: center;
+  -webkit-animation: move 10s infinite;
+          animation: move 10s infinite;
+  opacity: 0.9;
+}
+
+div#linear {
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  color: white;
+  text-shadow: 3px 0px 4px #c72b2b, 1px 0px 7px #ff0000;
+  font-size: 5rem;
+  width: 10vw;
+}
+
+div#ease {
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  color: #df475b;
+  font-size: 4rem;
+  width: 10vw;
+}
+
+div#easeIn {
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  color: white;
+  text-shadow: 3px 0px 4px #c72b2b, 1px 0px 7px #ff0000;
+  font-size: 3rem;
+  width: 15vw;
+}
+
+@-webkit-keyframes move {
+  0% {
+    left: -50%;
+    top: 0px;
+  }
+  20% {
+    left: 14%;
+    top: 0px;
+  }
+  40% {
+    left: 28%;
+    top: 0px;
+  }
+  60% {
+    left: 42%;
+    top: 0px;
+  }
+  80% {
+    left: 56%;
+    top: 0px;
+  }
+  100% {
+    left: 87%;
+    top: 0px;
+  }
+}
+
+@keyframes move {
+  0% {
+    left: -50%;
+    top: 0px;
+  }
+  20% {
+    left: 14%;
+    top: 0px;
+  }
+  40% {
+    left: 28%;
+    top: 0px;
+  }
+  60% {
+    left: 42%;
+    top: 0px;
+  }
+  80% {
+    left: 56%;
+    top: 0px;
+  }
+  100% {
+    left: 87%;
+    top: 0px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #hello,
+  .fatihce,
+  .stack {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  #hello,
+  .fatihce,
+  .stack {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #hello,
+  .fatihce,
+  .stack {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #hello,
+  .fatihce,
+  .stack {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

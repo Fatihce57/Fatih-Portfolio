@@ -1,0 +1,17 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.App .particles-canvas {
+  background-color: #072133;
+  position: absolute;
+  z-index: -1;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.App .tsparticles-canvas-el {
+  min-height: 100%;
+}
+/*# sourceMappingURL=App.css.map */

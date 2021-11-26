@@ -12,21 +12,22 @@ function Navigation() {
         expand="md"
         variant="dark"
       >
-        <Link to="/" className="nav-link">
+        {/* <Link to="/" className="nav-link">
           <img className="fatih-logo" src="./images/logo.png" alt="fatih logo" />
-        </Link>
-        <MultiPlayer
-        urls={[
-          "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-        ]}
-      />
+        </Link> */}
+        <span className="multiplayer">  <MultiPlayer
+          urls={[
+            "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+          ]}
+        /></span>
+      
         <Navbar.Toggle className="navbar-toggle" aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Col>
             <Nav className="mr-auto">
-            <Link to="/" className="nav-link">
-          Home
-        </Link>
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
               <Link to="/about" className="nav-link">
                 About
               </Link>

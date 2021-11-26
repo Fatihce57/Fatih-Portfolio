@@ -1,32 +1,35 @@
-@import '../../scss/layout';
-
 .container-navbar {
   width: 100vw;
   height: 10vh;
-  .fixed-top {
-    opacity: 1;
-    .navbar-toggle {
-      margin-right: 5%;
-    }
-    .nav-link {
-      color: $thirdLetterColor;
-      text-decoration: none;
-      padding: 1rem;
-      display: flex;
-      margin: 0;
+}
 
-      .multiplayer{
-        width: 2.5rem;
-        height: 2.5rem;
-        border: solid 1px ;
-        border-radius: 50%;
-      }
-    }
-  }
+.container-navbar .fixed-top {
+  opacity: 1;
+}
+
+.container-navbar .fixed-top .navbar-toggle {
+  margin-right: 5%;
+}
+
+.container-navbar .fixed-top .nav-link {
+  color: #b3e5fc;
+  text-decoration: none;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.container-navbar .fixed-top .nav-link .multiplayer {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: solid 1px;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 576px) {
-  .fatih-logo{
+  .fatih-logo {
     width: 30px;
   }
   .navbar-toggle {
@@ -41,7 +44,7 @@
 }
 
 @media only screen and (min-width: 576px) {
-  .fatih-logo{
+  .fatih-logo {
     width: 40px;
   }
   .navbar-toggle {
@@ -53,7 +56,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .fatih-logo{
+  .fatih-logo {
     width: 40px;
   }
   .nav-link {
@@ -62,10 +65,11 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .fatih-logo{
+  .fatih-logo {
     width: 40px;
   }
   .nav-link {
     font-size: 1em;
   }
 }
+/*# sourceMappingURL=Navbar.css.map */
