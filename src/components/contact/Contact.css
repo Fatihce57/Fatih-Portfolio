@@ -1,5 +1,5 @@
 .contact {
-  height: 80vh;
+  min-height: 80vh;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,7 +22,7 @@
 .contact .form-control,
 .contact textarea {
   width: 100%;
-  background-color: #072133;
+  background-color: black;
   color: #fff;
   letter-spacing: 1px;
 }
@@ -33,8 +33,8 @@
   height: 44px;
   width: 100%;
   overflow: hidden;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,8 +46,8 @@
 .contact .alt-send-button {
   width: 400px;
   height: 44px;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .contact .alt-send-button .send-text {
@@ -75,10 +75,22 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .aboutme,
-  .contact-list p,
-  .address,
-  .email {
+  .contact {
+    padding: 0 !important;
+  }
+  .contact .send-button {
+    margin-top: 1px;
+    height: 34px;
+    width: 100%;
+  }
+  .contact .alt-send-button {
+    width: 100%;
+    height: 34px;
+  }
+  .contact .aboutme,
+  .contact .contact-list p,
+  .contact .address,
+  .contact .email {
     font-size: 0.7rem;
   }
 }

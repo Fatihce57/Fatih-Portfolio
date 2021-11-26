@@ -1,5 +1,5 @@
 .project {
-  background-color: #072133;
+  background-color: black;
   color: #fafafa;
   min-height: 80vh;
   margin: 0 auto -10vh auto;
@@ -44,7 +44,7 @@
 
 .project .project-card .button-area .button {
   width: 5rem;
-  background-color: #072133;
+  background-color: black;
 }
 
 .project .project-card .button-area .button .card-link {

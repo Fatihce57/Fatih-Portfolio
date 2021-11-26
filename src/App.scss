@@ -9,9 +9,12 @@
     z-index: -1;
     min-height: 100vh;
     width:100vw;
+    margin: 0 auto;
+    padding: 0;
   }
   .tsparticles-canvas-el{
-    min-height: 100%;
+    min-height: 90vh;
+    width: 100vh;
   }  
 }
 
