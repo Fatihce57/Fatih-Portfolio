@@ -13,7 +13,7 @@ function Navigation() {
         variant="dark"
       >
         <Link to="/" className="nav-link">
-          <img className="fatih-logo" src="./images/fatihphoto.jpg" alt="fatih logo" />
+          <img className="fatih-logo" src="./images/logo.png" alt="fatih logo" />
         </Link>
         <MultiPlayer
         urls={[

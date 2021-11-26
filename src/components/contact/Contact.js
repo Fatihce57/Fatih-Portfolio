@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Contact.scss'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import {
   FaMapMarkerAlt,
   FaEnvelope,
@@ -60,56 +60,50 @@ function Contact() {
 
   return (
     <Row className="contact pt-5">
-      {/* <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
-        <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} />
-        <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
-        <button onClick={submit}>Send Message</button>
-        <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
-    */}
-
-        <Col xs={10} md={5} id="contact-form" class="form-horizontal m-0" role="form">
-          <div class="form-group">          
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                placeholder="Name"
-                name="name"
-                required
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-          
-          </div>
-
-          <div class="form-group">           
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="E-Mail"
-                name="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-
-          </div>
-
-          <div class="form-group">           
-              <input
-                type="text"
-                class="form-control"
-                id="number"
-                placeholder="Tel Number"
-                name="email"
-                required
-                value={number}
-                onChange={(e) => setNumber(e.target.value)}
-              />
-        
-          </div>
-          <div class="form-group">   
+      <Col
+        xs={10}
+        md={5}
+        id="contact-form"
+        class="form-horizontal m-0"
+        role="form"
+      >
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Name"
+            name="name"
+            required
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="E-Mail"
+            name="email"
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="number"
+            placeholder="Tel Number"
+            name="email"
+            required
+            value={number}
+            onChange={(e) => setNumber(e.target.value)}
+          />
+        </div>
+        <div class="form-group">
           <textarea
             class="form-control"
             rows="8"
@@ -119,8 +113,8 @@ function Contact() {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
-</div>
-          <div class="form-group">   
+        </div>
+        <div class="form-group">
           <button
             class="btn btn-warning send-button"
             id="submit"
@@ -135,31 +129,39 @@ function Contact() {
               </span>
             </div>
           </button>
-          </div>
-        </Col>
-
-        <Col xs={10} md={5} class="direct-contact-container">
-          
-          <ul class="contact-list">
+                 </div>
+                 <div class="form-group">
+                 <button
+            class="btn btn-warning send-button"
+            id="submit"
+            type="submit"
+            value="send"
+            onClick={cancel}
+          >
+            Cancel
+          </button>
+                 </div>
+      </Col>
+      <Col xs={10} md={5} class="direct-contact-container">
+        <ul class="contact-list">
           <li>
-              <h3 className="aboutme">Informations </h3>
-              <p>
-                You can always contact me via my social media accounts or mail.
-                I will give you feedback within 1 day.
-              </p>
-            </li>
-            <hr />
-            <li className="address">
-              <FaMapMarkerAlt /> Berlin, Germany
-            </li>
-            <br />        
-            <li className="email">
-              <FaEnvelope /> fatihce57@gmail.com
-            </li>
-                     </ul>
-               </Col>
-      </Row>
-  
+            <h3 className="aboutme">Informations </h3>
+            <p>
+              You can always contact me via my social media accounts or mail. I
+              will give you feedback within 1 day.
+            </p>
+          </li>
+          <hr />
+          <li className="address">
+            <FaMapMarkerAlt /> Berlin, Germany
+          </li>
+          <br />
+          <li className="email">
+            <FaEnvelope /> fatihce57@gmail.com
+          </li>
+        </ul>
+      </Col>
+    </Row>
   )
 }
 
