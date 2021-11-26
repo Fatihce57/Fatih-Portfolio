@@ -76,7 +76,7 @@ const MultiPlayer = ({ urls }) => {
 
 const Player = ({ player, toggle }) => (
   <div>
-    <button className="button"onClick={toggle}>{player.playing ? <img className="icon" src="./images/pause.png" alt="pause" /> : <img className="icon" src="./images/play.png" alt="play" />}</button>
+    <button className="button"onClick={toggle}>{player.playing ? <img className="icon" src="./images/pause.png" alt="pause" /> : <img className="icon" src="./images/play-button.png" alt="play" />}</button>
   </div>
 );
 
