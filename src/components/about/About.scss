@@ -162,6 +162,9 @@
     }
     
     @media only screen and (max-width: 576px) {
+      .about{
+        padding: 0px !important;
+      }
       .about-text{
         font-size: 0.9rem;
       }
@@ -169,8 +172,13 @@
         font-size: 1.5rem;
       }
       .slider{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        .caption{
+          line-height: 138px;
+          transform: translateY(-60%);
+        }
       }
+      
     }
     
     @media only screen and (min-width: 576px) {
