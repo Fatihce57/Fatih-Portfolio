@@ -8,7 +8,7 @@ function Project() {
         <Row className="d-flex justify-content-center">  
         {data.map(item => {
           return (
-            <Col key={item.id} xs={12} md={6} lg={4} xl={3} className="d-flex justify-content-center p-2">
+            <Col key={item.id} xs={10} md={6} lg={4} xl={3} className="d-flex justify-content-center p-2">
             <Card  className="project-card">
             <Card.Link
                     className="card-link"

@@ -4,14 +4,14 @@
   background-color: $bgColor;
   color: $secondLetterColor;
   min-height: 80vh;
-  margin: 0 auto -10vh auto;
-  padding:4% 2% 20% 2%;
+  margin: 0 1px -10vh 1px;
+  padding:4% 4% 20% 4%;
   .project-card {
-    max-width: 23rem;
+    max-width: 20rem;
     max-height: 30rem;
     color: $firstLetterColor;  
     .card-image {
-      max-width: 400px;
+      max-width: 380px;
       height: 200px;
     }
     .title {
