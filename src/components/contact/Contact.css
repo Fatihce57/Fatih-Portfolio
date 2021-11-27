@@ -61,7 +61,8 @@
 }
 
 .contact .direct-contact-container {
-  width: 500px;
+  max-width: 400px;
+  padding: 3%;
 }
 
 .contact .contact-list {
@@ -92,6 +93,9 @@
   .contact .address,
   .contact .email {
     font-size: 0.7rem;
+  }
+  .contact .message {
+    height: 90px;
   }
 }
 

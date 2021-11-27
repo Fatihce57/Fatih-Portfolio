@@ -41,7 +41,8 @@
     transform: translate3d(0px, -29px, 0px);
   }
   .direct-contact-container {
-    width: 500px;
+    max-width: 400px;
+    padding:3%;
   }
   .contact-list {
     list-style-type: none;
@@ -70,6 +71,9 @@
   .address,
   .email {
     font-size: 0.7rem;
+  }
+  .message{
+    height: 90px;
   }
 }
 }
