@@ -85,8 +85,8 @@
         "name": "Servito",
         "technologies": "ReactJs, React-Bootstrap , Bootstrap, SCSS, Redux, NodeJs, MongoDB, ExpressJs, Mongoose, Github, Netlify, Figma",
         "overview": "A decent environment where you can dine with your friends or family. Don't forget to make your reservation online.",
-        "image": "./images/comingsoon.png",
-        "url": "./images/comingsoon.png",
+        "image": "./images/servito.png",
+        "url": "https://servito.netlify.app/",
         "github": "https://github.com/DCIFINALPROJECT"
       }
 ]
