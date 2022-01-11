@@ -11,7 +11,7 @@ import Footer from './components/footer/Footer'
 
 function App() {
   return (
-    <div className="App">     
+    <div className="App">
       <Particles
         className="particles-canvas"
         params={{
@@ -125,17 +125,16 @@ function App() {
           retina_detect: true,
         }}
       />
-   
-        <Navbar />  
-        <Switch>
-          <Route exact path="/" component={Header} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/skills" component={Skills} />
-          <Route exact path="/contact" component={Contact} />
-        </Switch>      
-        <Footer />
-   
+
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Header} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/skills" component={Skills} />
+        <Route exact path="/contact" component={Contact} />
+      </Switch>
+      <Footer />
     </div>
   )
 }

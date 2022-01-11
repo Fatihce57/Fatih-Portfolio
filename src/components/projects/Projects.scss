@@ -4,20 +4,19 @@
   background-color: $bgColor;
   color: $secondLetterColor;
   min-height: 80vh;
-  margin: 0 1px -10vh 1px;
-  padding: 2% 4% 4% 4%;
+  margin: 0;
+  padding: 2%;
   .Menu {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 2% 2%;
     .card {
       overflow: hidden;
       margin-bottom: 5rem;
       position: relative;
       width: 500px;
-      height: 500px;
+      height: 380px;
       box-shadow: 0 40px 60px -6px rgb(179, 174, 174);
       .card-title {
         display: block;
@@ -31,23 +30,23 @@
       }
       .card-image {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
+        height: 100%;     
         display: block;
         position: relative;
       }
       .card-desc {
+        width: 100%;
         display: block;
         font-size: 1.2rem;
         position: absolute;
         height: 0;
         top: 0;
         opacity: 0;
-        padding: 18px 8%;
+        padding: 1% 3%;
         background-color: rgb(116, 211, 235);
         overflow-inline: scroll;
         transition: 0.8s ease;
-        .technologies {
+        .technologies, .information {
           color: rgb(12, 25, 136);
         }
         .button-area {
@@ -81,21 +80,36 @@
   .right {
     margin-left: 5rem;
   }
+  .overview, .technologie{
+    font-size: 0.7rem;
+  }
+  .technologies, .information {
+   font-size: 0.9rem;
+  }
+  .card{
+    height:250px !important;
+  }
 }
 
 @media only screen and (min-width: 400px) {
   .right {
     margin-left: 8rem;
   }
+  .overview, .technologie{
+    font-size: 0.9rem;
+  }
+  .technologies, .information {
+   font-size: 1rem;
+  }
 }
 @media only screen and (min-width: 500px) {
   .right {
-    margin-left: 11rem;
+    margin-left: 14rem;
   }
 }
 
 @media only screen and (min-width: 576px) {
   .right {
-    margin-left: 14rem;
+    margin-left: 17rem;
   }
 }

@@ -59,7 +59,7 @@ function Contact() {
   }
 
   return (
-    <Row className="contact">
+    <Row className="contact pt-5">
       <Col
         xs={10}
         md={5}
