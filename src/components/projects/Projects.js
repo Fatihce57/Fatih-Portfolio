@@ -1,6 +1,6 @@
 import './Projects.scss'
 import { Card, Button } from 'react-bootstrap'
-import data from './data.json'
+import data from './projectData.json'
 
 function Project() {
   return (
@@ -10,11 +10,11 @@ function Project() {
           return (
             <div key={item.id} className="card">
               <h2 className="card-title">{item.name}</h2>
-              <img className="card-image" src={item.image} alt="menu_image" />
+              <img className="card-image" src={item.image} alt="card_image" />
               <div className="card-desc">
-                <p className="mt-4"> <h5 className="technologies">Information:</h5>
+                <p className="mt-4 overview"> <h5 className="information">Information:</h5>
                   {item.overview}</p>
-                <p className="mt-4"> <h5 className="technologies">Technologies:</h5> {item.technologies}</p>
+                <p className="mt-4 technologie"> <h5 className="technologies">Technologies:</h5> {item.technologies}</p>
                 <div className="button-area">
                   <Button className="button left">
                     <Card.Link

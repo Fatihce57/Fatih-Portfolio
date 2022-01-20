@@ -19,12 +19,12 @@
       },
       {
         "id": 3,
-        "name": "Fatih Chat",
-        "technologies": "ReactJs, Firebase, Material-ui, React-Bootstrap, GitHub, Heroku",
-        "overview": "It is a nice project where you can message with your friends, family or lover.",
-        "image": "./images/fatihchat.png",
-        "url": "https://fatihchat.herokuapp.com/",
-        "github": "https://github.com/Fatihce57/F_CHAT"
+        "name": "Expense Tracker",
+        "technologies": "ReactJs, CSS, useContext, GitHub, Netlify",
+        "overview": "You can calculate your income and expenses.",
+        "image": "./images/expense-tracker.png",
+        "url": "https://expensecalculater.netlify.app/",
+        "github": "https://github.com/Fatihce57/Expence_tracker-useContext"
       },
       {
         "id": 4,
@@ -88,5 +88,14 @@
         "image": "./images/servito.png",
         "url": "https://servito.netlify.app/",
         "github": "https://github.com/DCIFINALPROJECT"
+      },
+      {
+        "id": 11,
+        "name": "Fatih Chat",
+        "technologies": "ReactJs, Firebase, Material-ui, React-Bootstrap, GitHub, Heroku",
+        "overview": "It is a nice project where you can message with your friends, family or lover.",
+        "image": "./images/fatihchat.png",
+        "url": "https://fatihchat.herokuapp.com/",
+        "github": "https://github.com/Fatihce57/F_CHAT"
       }
 ]
