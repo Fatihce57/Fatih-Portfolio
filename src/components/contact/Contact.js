@@ -145,7 +145,7 @@ function Contact() {
       <Col xs={10} md={5} className="direct-contact-container">
         <ul className="contact-list">
           <li>
-            <h3 className="aboutme">Informations </h3>
+            <h3 className="aboutme">Informations: </h3>
             <p>
               You can always contact me via my social media accounts or mail. I
               will give you feedback within 1 day.
