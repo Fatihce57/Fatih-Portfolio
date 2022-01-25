@@ -1,101 +1,101 @@
 [
-      {
-        "id": 1,
-        "name": "Corona Finder",
-        "technologies": "HTML/CSS, JavaScript, Canvas, Face Api, GitHub, Netlify",
-        "overview": "We need to wear masks during the corona time. So how about finding those who don't? Let's find them and warn them.",
-        "image": "./images/corona_finder.png",
-        "url": "https://coronaalarm.netlify.app/",
-        "github": "https://github.com/Fatihce57/Corona-Face-Recognition-System"
-      },
-      {
-        "id": 2,
-        "name": "Warning Notes",
-        "technologies": "Figma, ReactJs, Bootstrap, CSS, GitHub, Netlify",
-        "overview": " A nice project where you can write your important notes. You can now follow your shopping and daily work much more easily.",
-        "image": "./images/warningnotes.png",
-        "url": "https://warningnotes.netlify.app",
-        "github": "https://github.com/Fatihce57/Perseverance"
-      },
-      {
-        "id": 3,
-        "name": "Expense Tracker",
-        "technologies": "ReactJs, CSS, useContext, GitHub, Netlify",
-        "overview": "You can calculate your income and expenses.",
-        "image": "./images/expense-tracker.png",
-        "url": "https://expensecalculater.netlify.app/",
-        "github": "https://github.com/Fatihce57/Expence_tracker-useContext"
-      },
-      {
-        "id": 4,
-        "name": "Perseverance",
-        "technologies": "HTML/CSS, JavaScript, Bootstrap, GitHub, Netlify",
-        "overview": "It is a very nice website where you can find the latest up-to-date information about the space rocket Perseverance, which was sent to Mars by Nasa.",
-        "image": "./images/perseverance.png",
-        "url": "https://marsperseverance.netlify.app/",
-        "github": "https://github.com/Fatihce57/Perseverance"
-      },
-      {
-        "id": 5,
-        "name": "Wetterlage",
-        "technologies": "HTML/CSS, JavaScript, Bootstrap, GitHub, Netlify, RESTful APIs",
-        "overview": "A good site where you can find out the weather forecast wherever you live in the world.",
-        "image": "./images/wetterlage.png",
-        "url": "https://wetterlage.netlify.app/",
-        "github": "https://github.com/Fatihce57/weather_APP"
-      },
-      {
-        "id": 6,
-        "name": "Analog Uhr",
-        "technologies": "HTML/CSS, JavaScript, GitHub, Netlify",
-        "overview": "How would you like to keep track of your time in a digital clock prepared with JavaScript?",
-        "image": "./images/digital_uhr.png",
-        "url": "https://analoguhr.netlify.app/",
-        "github": "https://github.com/Fatihce57/Analog-clock"
-      },
-      {
-        "id": 7,
-        "name": "Fatih's Restaurant",
-        "technologies": "ReactJs, React-Bootstrap, GitHub, Netlify",
-        "overview": "Are you hungry? Come on then take a look at our food menus.",
-        "image": "./images/menu.png",
-        "url": "https://fatihrestaurant.netlify.app/",
-        "github": "https://github.com/Fatihce57/menu"
-      },
-      {
-        "id": 8,
-        "name": "Top List Movies",
-        "technologies": "HTML/CSS, JavaScript, RESTful APIs, GitHub, Netlify",
-        "overview": "Are you bored? How about checking out the movies? So you can spend a fun time with your family.",
-        "image": "./images/movies.png",
-        "url": "https://toplistmovies.netlify.app",
-        "github": "https://github.com/Fatihce57/movies_js"
-      },
-      {
-        "id": 9,
-        "name": "User Management",
-        "technologies": "ReactJs, SAAS, NodeJs, MongoDB, ExpressJs, Mongoose, Github, Heroku",
-        "overview": "Would you like to take a look at user management with a Fullstack project?",
-        "image": "./images/usermanagement.png",
-        "url": "https://userfatih.herokuapp.com/",
-        "github": "https://github.com/Fatihce57/mongodb_frontend"
-      },
-      {
-        "id": 10,
-        "name": "Servito",
-        "technologies": "ReactJs, React-Bootstrap , Bootstrap, SCSS, Redux, NodeJs, MongoDB, ExpressJs, Mongoose, Github, Netlify, Figma",
-        "overview": "A decent environment where you can dine with your friends or family. Don't forget to make your reservation online.",
-        "image": "./images/servito.png",
-        "url": "https://servito.netlify.app/",
-        "github": "https://github.com/DCIFINALPROJECT"
-      },
-      {
-        "id": 11,
-        "name": "Fatih Chat",
-        "technologies": "ReactJs, Firebase, Material-ui, React-Bootstrap, GitHub, Heroku",
-        "overview": "It is a nice project where you can message with your friends, family or lover.",
-        "image": "./images/fatihchat.png",
-        "url": "https://fatihchat.herokuapp.com/",
-        "github": "https://github.com/Fatihce57/F_CHAT"
-      }
+  {
+    "id": 1,
+    "name": "Servito",
+    "technologies": "ReactJs, React-Bootstrap , Bootstrap, SCSS, Redux, NodeJs, MongoDB, ExpressJs, Mongoose, Github, Netlify, Figma",
+    "overview": "This is a full stack project. A decent environment where you can dine with your friends or family. Don't forget to make your reservation online.",
+    "image": "./images/servito.png",
+    "url": "https://servito.netlify.app/",
+    "github": "https://github.com/DCIFINALPROJECT"
+  },
+  {
+    "id": 2,
+    "name": "Corona Finder",
+    "technologies": "HTML/CSS, JavaScript, Canvas, Face Api, GitHub, Netlify",
+    "overview": "We need to wear masks during the corona time. So how about finding those who don't? Let's find them and warn them.",
+    "image": "./images/corona_finder.png",
+    "url": "https://coronaalarm.netlify.app/",
+    "github": "https://github.com/Fatihce57/Corona-Face-Recognition-System"
+  },
+  {
+    "id": 3,
+    "name": "Warning Notes",
+    "technologies": "Figma, ReactJs, Bootstrap, CSS, GitHub, Netlify",
+    "overview": " A nice project where you can write your important notes. You can now follow your shopping and daily work much more easily.",
+    "image": "./images/warningnotes.png",
+    "url": "https://warningnotes.netlify.app",
+    "github": "https://github.com/Fatihce57/Perseverance"
+  },
+  {
+    "id": 4,
+    "name": "Expense Tracker",
+    "technologies": "ReactJs, CSS, useContext, GitHub, Netlify",
+    "overview": "You can calculate your income and expenses.",
+    "image": "./images/expense-tracker.png",
+    "url": "https://expensecalculater.netlify.app/",
+    "github": "https://github.com/Fatihce57/Expence_tracker-useContext"
+  },
+  {
+    "id": 5,
+    "name": "Wetterlage",
+    "technologies": "HTML/CSS, JavaScript, Bootstrap, GitHub, Netlify, RESTful APIs",
+    "overview": "A good site where you can find out the weather forecast wherever you live in the world.",
+    "image": "./images/wetterlage.png",
+    "url": "https://wetterlage.netlify.app/",
+    "github": "https://github.com/Fatihce57/weather_APP"
+  },
+  {
+    "id": 6,
+    "name": "Analog Uhr",
+    "technologies": "HTML/CSS, JavaScript, GitHub, Netlify",
+    "overview": "How would you like to keep track of your time in a digital clock prepared with JavaScript?",
+    "image": "./images/digital_uhr.png",
+    "url": "https://analoguhr.netlify.app/",
+    "github": "https://github.com/Fatihce57/Analog-clock"
+  },
+  {
+    "id": 7,
+    "name": "Fatih's Restaurant",
+    "technologies": "ReactJs, React-Bootstrap, GitHub, Netlify",
+    "overview": "Are you hungry? Come on then take a look at our food menus.",
+    "image": "./images/menu.png",
+    "url": "https://fatihrestaurant.netlify.app/",
+    "github": "https://github.com/Fatihce57/menu"
+  },
+  {
+    "id": 8,
+    "name": "Top List Movies",
+    "technologies": "HTML/CSS, JavaScript, RESTful APIs, GitHub, Netlify",
+    "overview": "Are you bored? How about checking out the movies? So you can spend a fun time with your family.",
+    "image": "./images/movies.png",
+    "url": "https://toplistmovies.netlify.app",
+    "github": "https://github.com/Fatihce57/movies_js"
+  },
+  {
+    "id": 9,
+    "name": "User Management",
+    "technologies": "ReactJs, SAAS, NodeJs, MongoDB, ExpressJs, Mongoose, Github, Heroku",
+    "overview": "Would you like to take a look at user management with a Fullstack project?",
+    "image": "./images/usermanagement.png",
+    "url": "https://userfatih.herokuapp.com/",
+    "github": "https://github.com/Fatihce57/mongodb_frontend"
+  },
+  {
+    "id": 10,
+    "name": "Perseverance",
+    "technologies": "HTML/CSS, JavaScript, Bootstrap, GitHub, Netlify",
+    "overview": "It is a very nice website where you can find the latest up-to-date information about the space rocket Perseverance, which was sent to Mars by Nasa.",
+    "image": "./images/perseverance.png",
+    "url": "https://marsperseverance.netlify.app/",
+    "github": "https://github.com/Fatihce57/Perseverance"
+  },
+  {
+    "id": 11,
+    "name": "Fatih Chat",
+    "technologies": "ReactJs, Firebase, Material-ui, React-Bootstrap, GitHub, Heroku",
+    "overview": "It is a nice project where you can message with your friends, family or lover.",
+    "image": "./images/fatihchat.png",
+    "url": "https://fatihchat.herokuapp.com/",
+    "github": "https://github.com/Fatihce57/F_CHAT"
+  }
 ]
